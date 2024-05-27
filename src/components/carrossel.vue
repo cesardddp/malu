@@ -66,14 +66,14 @@
                     :alt="slotProps.data.nome"
                     class="w-full border-round border rounded"
                   />
-                  <Tag
+                  <!-- <Tag
                     :value="slotProps.data.tag"
                     class="absolute bg-white"
                     style="left: 5px; top: 5px"
-                  />
+                  /> -->
                 </div>
               </div>
-              <!-- <div class="mb-3 font-medium">{{ slotProps.data.nome }}</div> -->
+              <div class="mb-3 font-medium">{{ slotProps.data.nome }}</div>
               <div class="flex justify-content-between align-items-center">
                 <div class="mt-0 font-semibold text-xs">
                   {{ slotProps.data.info }}
@@ -90,7 +90,7 @@
 <script setup lang="ts">
 import { ref, onMounted } from "vue";
 import Carousel from "primevue/carousel";
-import Tag from "primevue/tag";
+// import Tag from "primevue/tag";
 import { Família as Família } from "../tipos";
 import Card from "primevue/card";
 import TabPanel from "primevue/tabpanel";
