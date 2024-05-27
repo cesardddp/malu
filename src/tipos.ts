@@ -1,4 +1,4 @@
-export type Famílias =  {
+export type Família =  {
   família: string;
   'Hábito': string;
   Folhas: string;
@@ -6,7 +6,10 @@ export type Famílias =  {
   Flores: string;
   Fruto: string;
   'Espécie': string;
-  'Localização': string;
+  'Localização': {
+    label:string
+    link:string
+  };
   exemplares:Exemplar[]
 }
 
