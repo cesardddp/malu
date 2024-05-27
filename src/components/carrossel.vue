@@ -13,6 +13,7 @@
               v-for="i in 7"
               @click="active = i - 1"
               v-bind="btnProps(i - 1)"
+              :class="active === i - 1 ? 'text-yellow-600' : ''"
             >
               {{ btnProps(i - 1).label }}
               <span
@@ -38,8 +39,9 @@
               </span>
               <span v-else>
                 <a
-                class="text-blue-600 underline"
-                :href="(família[detalhesFamilia[i - 1]] as any).link">
+                  class="text-blue-600 underline"
+                  :href="(família[detalhesFamilia[i - 1]] as any).link"
+                >
                   {{ (família[detalhesFamilia[i - 1]] as any).label }}
                 </a>
               </span>
