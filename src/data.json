@@ -241,7 +241,7 @@
     },
     {
         "família": "CACTACEAE",
-        "Hábito": "Ervas, geralmente suculentas, caule segmentado em cladódios achatados ou colunares, pouco frequentemente árvores ou arbustos, alguns ramos são encontrados como aréolas, com folhas e escamas modificados em espinhos rígidos ou flexíveis",
+        "Hábito": "Ervas, geralmente suculentas, caule segmentado em cladódios achatados ou colunares, pouco frequentemente árvores ou arbustos, alguns ramos são encontrados como aréolas, com Folhas e escamas modificados em espinhos rígidos ou flexíveis",
         "Folhas": "Modificadas em espinhos ou normais, alternas, simples, ausência de estípulas, geralmente carnosas",
         "Inflorescência": "Cimosa, geralmente reduzida a uma flor",
         "Flores": "Geralmente vistosas, bissexuadas ou raramente unissexuadas, actinomorfas ou zigomorfas, monoclamídeas, cálice com abundantes sépalas, dialissépalo ou gamossépalo, estames numerosos, disco nectarífero frequente, ovário ínfero, raramente súpero (Pereskia)",
@@ -280,6 +280,126 @@
                 "tag": "Trema micranthum (L.) Blume",
                 "info": "",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Trema_micrantha_%28L.%29_Blume_-_Flickr_-_Alex_Popovkin%2C_Bahia%2C_Brazil_%284%29.jpg"
+            }
+        ]
+    },
+    {
+        "família": "CASUARINACEAE",
+        "Hábito": "Arbustos ou árvores",
+        "Folhas": "Folhas simples, verticiladas, escamiformes, sem estípulas",
+        "inflorescencia": "Espiga nas flores estaminadas, glomérulo nas flores pistiladas",
+        "flores": "Unissexuadas, actinomorfas, aclamídeas ou monoclamídeas, cálice dímero, sépalas escamiformes, 1 estame, gineceu gamocarpelar, ovário bicarpelar com apenas um lóculo fértil",
+        "fruto": "Sâmara, envolto por brácteas lenhosas",
+        "Espécie": "Casuarina equisetifolia L.",
+        "Localização": {
+            "label": "22°23'48.3\"S 47°32'59.1\"W",
+            "link": ""
+        },
+        "maps_url": "https://maps.app.goo.gl/JVW5jCteg3dJTz7fA?g_st=iw",
+        "exemplares": [
+            {
+                "nome": "Casuarina equisetifolia L.",
+                "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Casuarina_equisetifolia_L._%2852707219792%29.jpg/640px-Casuarina_equisetifolia_L._%2852707219792%29.jpg"
+            }
+        ]
+    },
+    {
+        "família": "COMBRETACEAE",
+        "Hábito": "Árvores, arbustos ou lianas",
+        "Folhas": "Opostas, com menos frequência alternas ou verticiladas, simples, estípulas vestigiais quando presentes, margem inteira, peninérveas, no caso das espécies arbóreas concentradas no ápice dos ramos, às vezes com nectários extraflorais",
+        "inflorescencia": "Racemosa, frequentemente do tipo espiga, raramente cimosa",
+        "flores": "Geralmente pouco vistosas, bissexuadas ou raramente unissexuadas, actinomorfas ou raramente zigomorfas, monoclamídeas ou diclamídeas, cálice dialissépalo ou gamossépalo, corola dialipétala, estames frequentemente exsertos e vistosos, disco nectarífero geralmente presente, ovário ínfero",
+        "fruto": "Drupa ou sâmara, raramente deiscente",
+        "Espécie": "Terminalia argentea Mart. [nativa]",
+        "Localização": {
+            "label": "22°23'47.8\"S 47°32'45.1\"W",
+            "link": ""
+        },
+        "maps_url": "https://maps.app.goo.gl/Wqwp9rfdbQunVq1u7?g_st=iw",
+        "exemplares": [
+            {
+                "nome": "Terminalia argentea Mart.",
+                "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Terminalia_argentea.jpg/640px-Terminalia_argentea.jpg"
+            }
+        ]
+    },
+    {
+        "família": "CUPRESSACEAE",
+        "Hábito": "Árvores ou arbustos, monoicos ou menos frequentemente dioicos",
+        "Folhas": "Simples, geralmente escamiformes, raramente lineares, lanceoladas ou aciculares, alternas, opostas ou verticiladas, uninérveas e frequentemente pungentes",
+        "microstrobilos": "Numerosos microsporófilos, grãos de pólen sem vesículas de ar",
+        "megastrobilos": "Numerosos megasporófilos",
+        "sementes": "Aladas ou menos frequentemente não aladas",
+        "Espécie": "Cupressus sempervirens L.",
+        "Localização": {
+            "label": "22°23'50.6\"S 47°32'58.8\"W",
+            "link": ""
+        },
+        "maps_url": "https://maps.app.goo.gl/DdDHJV5FxfNwkhym7?g_st=iw",
+        "exemplares": [
+            {
+                "nome": "Cupressus sempervirens L.",
+                "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Fresh_Cupressus_sempervirens_cones.jpg/640px-Fresh_Cupressus_sempervirens_cones.jpg"
+            }
+        ]
+    },
+    {
+        "família": "DILLENIACEAE",
+        "Hábito": "Arbustos, árvores ou lianas, menos frequentemente ervas",
+        "Folhas": "Alternas, simples, geralmente sem estípulas, com nervuras secundárias até a margem das Folhas, formando denticulado",
+        "inflorescencia": "Cimosa ou racemosa, geralmente paniculada ou disposta em glomérulos, às vezes reduzida a fascículos ou a uma flor",
+        "flores": "Pouco ou muito vistosas, geralmente bissexuadas, actinomorfas, diclamídeas, cálice dialissépalo, geralmente as sépalas são persistentes na frutificação e envolvem o fruto, corola dialipétala, estames geralmente numerosos, gineceu frequentemente dialicarpelar, ovário súpero",
+        "fruto": "Apocárpico sendo os frutículos deiscentes ou indeiscentes, ou baga",
+        "Espécie": "Dillenia indica L.",
+        "Localização": {
+            "label": "22°23'49.4\"S 47°32'47.1\"W",
+            "link": ""
+        },
+        "maps_url": "https://maps.app.goo.gl/BWFNRZpomvxsZunQ9?g_st=iw",
+        "exemplares": [
+            {
+                "nome": "Dillenia indica L.",
+                "link": "https://upload.wikimedia.org/wikipedia/commons/8/84/Dillenia_indica_-_Elephant_Apple_at_Kakkayam_dam_%283%29.jpg"
+            }
+        ]
+    },
+    {
+        "família": "ELAEOCARPACEAE",
+        "Hábito": "Árvores, raramente arbustos",
+        "Folhas": "Alternas, simples, com estípulas, margem geralmente serreada",
+        "inflorescencia": "Cimosa ou racemosa",
+        "flores": "Frequentemente pouco vistosas, geralmente bissexuadas, actinomorfas, diclamídeas ou monoclamídeas, cálice gamossépalo ou dialissépalo, corola dialipétala, estames numerosos e livres entre si, disco nectarífero às vezes presente, ovário súpero",
+        "fruto": "Drupa ou cápsula com sementes ariladas, raramente baga",
+        "Espécie": "Elaeocarpus serratus L.",
+        "Localização": {
+            "label": "22°23'45.7\"S 47°32'36.3\"W",
+            "link": ""
+        },
+        "maps_url": "https://maps.app.goo.gl/QesKE4VPccotN9by9?g_st=iw",
+        "exemplares": [
+            {
+                "nome": "Elaeocarpus serratus L.",
+                "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/A_hand-book_to_the_flora_of_Ceylon_%28Plate_XX%29_%286430638977%29.jpg/640px-A_hand-book_to_the_flora_of_Ceylon_%28Plate_XX%29_%286430638977%29.jpg"
+            }
+        ]
+    },
+    {
+        "família": "EUPHORBIACEAE",
+        "Hábito": "Ervas, arbustos, árvores ou lianas, às vezes afilas como cactáceas, geralmente com látex",
+        "Folhas": "Alternas, pouco frequentemente opostas ou verticiladas, simples ou raramente compostas (Hevea), com estípulas, margem frequentemente inteira, nectários extraflorais geralmente no pecíolo ou na face abaxial",
+        "inflorescencia": "Cimosa ou racemosa, às vezes ciátio (Euphorbia)",
+        "flores": "Não vistosas, unissexuadas, actinomorfas, aclamídeas ou monoclamídeas, raramente diclamídeas, às vezes envolvidas por brácteas vistosas, cálice dialissépalo ou gamossépalo, corola dialipétala ou gamopétala, estamos 1-numerosos, disco nectarífero geralmente presente, ovário súpero",
+        "fruto": "Geralmente cápsula com deiscência tricoca, menos frequentemente baga, drupa ou sâmara, sementes geralmente com arilo ou carúncula",
+        "Espécie": "Hevea brasiliensis (Willd. ex A.Juss.) Müll.Arg. [nativa]",
+        "Localização": {
+            "label": "22°23'34.0\"S 47°32'43.2\"W",
+            "link": ""
+        },
+        "maps_url": "https://maps.app.goo.gl/fV1Zgx2KiGth2sjy5?g_st=iw",
+        "exemplares": [
+            {
+                "nome": "Hevea brasiliensis (Willd. ex A.Juss.) Müll.Arg.",
+                "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Hevea_brasiliensis_14.JPG/640px-Hevea_brasiliensis_14.JPG"
             }
         ]
     }
