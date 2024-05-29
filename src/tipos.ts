@@ -1,20 +1,31 @@
-export type Família =  {
+export type Família = {
   família: string;
-  'Hábito': string;
+  Hábito: string;
   Folhas: string;
-  'Inflorescência': string;
-  Flores: string;
-  Fruto: string;
-  'Espécie': string;
-  'Localização': {
-    label:string
-    link:string
+  // Inflorescência?: string;
+  // Flores?: string;
+  // Fruto?: string;
+  Espécie: string;
+  Localização: {
+    label: string;
+    link: string;
   };
-  exemplares:Exemplar[]
-}
+  exemplares: Exemplar[];
+
+  [k: string]:
+    | string
+    | {
+        label: string;
+        link: string;
+      }
+    | Exemplar[];
+};
 
 export type Exemplar = {
-  nome:string
-  arquivo:string
-  info:string
-}
+  nome: string;
+  tag: string;
+  arquivo: string;
+  info: string;
+  link?: string;
+};
+

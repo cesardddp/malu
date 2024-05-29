@@ -1,65 +1,494 @@
 <script setup lang="ts">
 import Carrossel from "./components/carrossel.vue";
 import { Família } from "./tipos";
-import data from "./data.json";
-import { computed, ref } from "vue";
+import { computed, onErrorCaptured,  ref, watch } from "vue";
 import Button from "primevue/button";
+import { useRoute, useRouter } from "vue-router";
+import DataView from "primevue/dataview";
+import Image from "primevue/image";
+import IconField from 'primevue/iconfield';
+import InputIcon from 'primevue/inputicon';
+import InputText from "primevue/inputtext";
 
-const famílias: Família[] = data;
-const famíliaSelecionada = ref<Família>();
+
+const route = useRoute()
+const router = useRouter()
+
+
+const famílias = ref<Família[]>([
+  {
+    "família": "APOCYNACEAE",
+    "Hábito": "Ervas, subarbustos, arbustos, árvores, lianas, geralmente latescentes",
+    Folhas: "Opostas, menos frequentemente alternas ou verticiladas, simples, raramente com estípulas, margem inteira",
+    "Inflorescência": "Racemosa ou cimosa, às vezes uma única flor",
+    Flores: "Geralmente vistosas, bissexuadas, raramente dioicas ou ginodioicas, actinomorfas ou raramente pouco zigomorfas, diclamídea, cálice pentâmero, dialissépalo ou gamossépalo, corola pentâmera, gamopétala, estames em número igual ao das pétalas, epipétalos, frequentemente glândulas nectaríferas ao redor do ovário, gineceu bicarpelar, dialicarpelar ou menos frequentemente gamocarpelar, ovário súpero, raramente ínfero",
+    Fruto: "Folículo, seco ou raramente carnoso, ocasionalmente cápsula, drupa ou baga",
+    "Espécie": "Tabernamontana laeta Mart. [nativa]",
+    "Localização": {
+      label: "22°23'48.3\"S 47°32'48.9\"W",
+      link: "",
+    },
+    exemplares: [
+      {
+        arquivo: "4.png",
+        nome: "Tabernamontana laeta Mart.",
+        tag: "Tabernamontana laeta Mart.",
+        info: "",
+        // link: "https://www.gbif.org/tools/zoom/simple.html?src=//api.gbif.org/v1/image/cache/occurrence/3949392396/media/7fe487e6bb9f6d4165c98f5ec6486a49",
+      },
+    ],
+  },
+  {
+    "família": "ANACARDIACEAE",
+    "Hábito": "Arbustos ou árvores, raramente lianas ou ervas, aromáticos",
+    Folhas: "Geralmente alternas, compostas ou menos frequentemente simples, sem estípulas, margem inteira ou serreada ",
+    "Inflorescência": "Geralmente cimosa ",
+    Flores: "Pouco vistosas, geralmente unissexuadas, actinomorfas, diclamídeas, cálice geralmente pentâmero, corola geralmente pentâmera, estames em número igual ou duplo ao das pétalas, raramente numerosos ou apenas 1 fértil, disco nectarífero presente, gineceu gamocarpelar, ovário geralmente súpero ",
+    Fruto: "Em geral drupa ou sâmara ",
+    "Espécie": "Schinus molle L. [nativa]",
+    "Localização": {
+      label: "22°23'43.5\"S 47°32'32.1\"W ",
+      link: "https://maps.app.goo.gl/stp9gReT9M9tRF3bA",
+    },
+    exemplares: [
+      {
+        arquivo: "2.jpg",
+        nome: "Schinus_molle_kz01",
+        tag: "Schinus_molle_kz01",
+        info: "",
+        link: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Schinus_molle_kz01.jpg/640px-Schinus_molle_kz01.jpg",
+      },
+    ],
+  },
+  {
+    "família": "ALTINGIACEAE",
+    "Hábito": "Arbustos ou árvores",
+    Folhas: "Simples, alternas, com estípulas unidas à base do pecíolo, margem inteira ou serreada, frequentemente lobadas e palminérveas ",
+    "Inflorescência": "Glomérulo ",
+    Flores: "Unissexuadas, pouco vistosas, actinomorfas, aclamídeas ou flores pistiladas monoclamídeas, sépalas escamiformes, estames 4-numerosos, gineceu incompletamente gamocarpelar, ovário semi-ínfero, estiletes livres entre si. ",
+    Fruto: " Cápsula ",
+    "Espécie": " Liquidambar styraciflua L. [exótica] ",
+    "Localização": {
+      label: " 22°23'39.9\"S 47°32'43.7\"W ",
+      link: "",
+    },
+    exemplares: [
+      {
+        arquivo: "1.jpg",
+        nome: "Liquidambar styraciflua L.",
+        tag: "Liquidambar styraciflua L.",
+        info: "Informações adicionais dessa planta info info dessa planta",
+      },
+    ],
+  },
+  {
+    "família": "ANNONACEAE",
+    "Hábito": "Árvores, raramente arbustos, subarbustos ou lianas",
+    Folhas: "Alternas, dísticas ou muito raramente espiralas, simples, sem estípulas, margem inteira",
+    "Inflorescência": "Cimosa, às vezes reduzida a uma única flor",
+    Flores: "Frequentemente grandes e vistosas, geralmente bissexuadas, diclamídeas, cálice dialissépalo, corola dialipétala, estames geralmente numerosos, gineceu dialicarpelar ou muito raramente gamocarpelar, ovário súpero",
+    Fruto: "Apocárpico ou sincárpico, bacáceo ou menos frequentemente folicular",
+    "Espécie": "Annona squamosa L. [nativa]",
+    "Localização": {
+      label: "22°23'34.0\"S 47°32'40.2\"W",
+      link: "",
+    },
+    exemplares: [
+      {
+        arquivo: "3.jpg",
+        nome: "Annona_squamosa_20180921_155649",
+        tag: "Annona_squamosa_20180921_155649",
+        info: "",
+        link: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Annona_squamosa_20180921_155649.jpg/640px-Annona_squamosa_20180921_155649.jpg",
+      },
+    ],
+  },
+  
+  {
+    "família": "ARALIACEAE",
+    "Hábito": "Arbustos ou árvores, com menos frequência ervas ou lianas, raramente epífitas, ocasionalmente aromáticos",
+    Folhas: "Alternas ou muito raramente opostas ou verticiladas, compostas ou raramente simples, com ou sem estípulas",
+    "Inflorescência": "Umbela simples ou composta, pouco frequente glomérulos",
+    Flores: "Não vistosas ou pouco vistosas, geralmente bissexuadas, actinomorfas, diclamídeas ou raramente monoclamídeas, cálice geralmente pouco desenvolvido e pentâmero, dialissépalo, corola dialipétala, raramente gamopétala ou formando caliptra, estames 3-numerosos, ovário ínfero ou muito raramente súpero",
+    Fruto: "Drupa ou baga, raramente esquizocarpo",
+    "Espécie": "Aralia warmingiana (Marchal) J.Wen [nativa]",
+    "Localização": {
+      label: "22°23'46.8\"S 47°32'46.0\"W",
+      link: "https://maps.app.goo.gl/foqqpmT9TLj6woht8?g_st=iw",
+    },
+    exemplares: [
+      {
+        arquivo: "5.jpg",
+        nome: "Aralia warmingiana (Marchal) J.Wen",
+        tag: "Aralia warmingiana (Marchal) J.Wen",
+        info: "",
+        link: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Contributions_from_the_United_States_National_Herbarium_%282011%29_%2820066468984%29.jpg/640px-Contributions_from_the_United_States_National_Herbarium_%282011%29_%2820066468984%29.jpg",
+      },
+    ],
+  },
+  {
+    "família": "ARAUCARIACEAE",
+    "Hábito": "Árvores dioicas ou monoicas",
+    Folhas: "Simples, sésseis ou com curto pecíolo, alternas espiraladas, raramente alternas dísticas ou opostas, podem ser imbricadas (Araucaria), geralmente uninérveas e pungentes, margem inteira,Simples, sésseis ou com curto pecíolo, alternas espiraladas, raramente alternas dísticas ou opostas, podem ser imbricadas (Araucaria), geralmente uninérveas e pungentes, margem inteiraSimples, sésseis ou com curto pecíolo, alternas espiraladas, raramente alternas dísticas ou opostas, podem ser imbricadas (Araucaria), geralmente uninérveas e pungentes, margem inteiraSimples, sésseis ou com curto pecíolo, alternas espiraladas, raramente alternas dísticas ou opostas, podem ser imbricadas (Araucaria), geralmente uninérveas e pungentes, margem inteiraSimples, sésseis ou com curto pecíolo, alternas espiraladas, raramente alternas dísticas ou opostas, podem ser imbricadas (Araucaria), geralmente uninérveas e pungentes, margem inteiraSimples, sésseis ou com curto pecíolo, alternas espiraladas, raramente alternas dísticas ou opostas, podem ser imbricadas (Araucaria), geralmente uninérveas e pungentes, margem inteiraSimples, sésseis ou com curto pecíolo, alternas espiraladas, raramente alternas dísticas ou opostas, podem ser imbricadas (Araucaria), geralmente uninérveas e pungentes, margem inteiraSimples, sésseis ou com curto pecíolo, alternas espiraladas, raramente alternas dísticas ou opostas, podem ser imbricadas (Araucaria), geralmente uninérveas e pungentes, margem inteiraSimples, sésseis ou com curto pecíolo, alternas espiraladas, raramente alternas dísticas ou opostas, podem ser imbricadas (Araucaria), geralmente uninérveas e pungentes, margem inteiraSimples, sésseis ou com curto pecíolo, alternas espiraladas, raramente alternas dísticas ou opostas, podem ser imbricadas (Araucaria), geralmente uninérveas e pungentes, margem inteiraSimples, sésseis ou com curto pecíolo, alternas espiraladas, raramente alternas dísticas ou opostas, podem ser imbricadas (Araucaria), geralmente uninérveas e pungentes, margem inteira",
+    "Microstróbilos": "Abundantes microsporófilos que apresentam de 6-20 microsporângios, grãos de pólen sem vesículas de ar",
+    "Megastróbilos": "Maiores e menos abundantes do que os microstróbilos, com muitos megasporófilos uniovulados",
+    Sementes: "Aladas ou não",
+    "Espécie": "Araucaria angustifolia (Bertol.) Kuntze [nativa]",
+    "Localização": {
+      label: "22°23'33.3\"S 47°32'39.4\"W",
+      link: "https://maps.app.goo.gl/bq1kscJ9nVE4FCWi7?g_st=iw",
+    },
+    exemplares: [
+      {
+        arquivo: "6.jpg",
+        nome: "Araucaria angustifolia (Bertol.) Kuntze",
+        tag: "Araucaria angustifolia (Bertol.) Kuntze",
+        info: "",
+        link: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Araucaria_angustifolia_cones_%285407003438%29.jpg/640px-Araucaria_angustifolia_cones_%285407003438%29.jpg",
+      },
+    ],
+  },
+  {
+    "família": "ARECACEAE",
+    "Hábito": "Palmeiras, estipe frequentemente lenhoso, simples ou ocasionalmente ramificado, geralmente com espinhos, às vezes subterrâneo, raramente lianas",
+    Folhas: "Pecioladas, simples, pinatipartidas ou flabeliformes, alternas espiraladas ou menos frequentemente dísticas, palmatinérveas ou seguimentos foliares paralelinérveos no ápice do estipe",
+    "Inflorescência": "Panícula, laxa ou compacta e espiciforme, estendida por baixo de uma bráctea comumente lenhosa",
+    Flores: "Geralmente pouco vistosas, unissexuadas ou raramente bissexuadas, actinomorfas, geralmente diclamídeas e heteroclamídeas, cálice gamossépalo ou dialissépalo, corola gamopétala ou dialipétala, estames livres ou unido entre si, gineceu geralmente gamocarpelar, ovário súpero, nectários às vezes presentes",
+    Fruto: "Drupa ou menos frequentemente baga, geralmente indeiscente com uma única semente",
+    "Espécie": "Syagrus oleracea (Mart.) Becc. [nativa]",
+    "Localização": {
+      label: "22°23'48.1\"S 47°32'43.5\"W",
+      link: "https://maps.app.goo.gl/pv3nQDjF7Q6mEUWSA?g_st=iw",
+    },
+    exemplares: [
+      {
+        arquivo: "7.jpg",
+        nome: "Syagrus oleracea (Mart.) Becc.",
+        tag: "Syagrus oleracea (Mart.) Becc.",
+        info: "",
+        link: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Syagrus-oleracea.jpg/640px-Syagrus-oleracea.jpg",
+      },
+    ],
+  },
+  {
+    "família": "ASPARAGACEAE",
+    "Hábito": "Ervas, lianas, arbustos ou arborescentes, ocasionalmente com rizomas ou bulbos",
+    Folhas: "Alternas espiraladas ou dísticas, raramente opostas, paralelinérveas, às vezes suculentas ou escamiformes, com ou sem bainha, margem inteira ou menos frequentemente espinescente",
+    "Inflorescência": "Cimosa ou racemosa",
+    Flores: "Vistosas, bissexuadas ou unissexuadas, actinomorfas ou levemente zigomorfas, diclamídeas e homoclamídeas, cálice e corola geralmente unidos, estames livres entre si, pode apresentar nectários septais, gineceu gamocarpelar, ovário súpero ou ínfero",
+    Fruto: "Cápsula ou baga",
+    "Espécie": "Yucca gigantea Lem. [exótica]",
+    "Localização": {
+      label: "22°23'52.7\"S 47°32'38.3\"W",
+      link: "https://maps.app.goo.gl/F9RPC1f6EC6y3HaC7?g_st=iw",
+    },
+    exemplares: [
+      {
+        arquivo: "8.jpg",
+        nome: "Yucca gigantea Lem.",
+        tag: "Yucca gigantea Lem.",
+        info: "",
+        link: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Yucca_gigantea_%28Yucca_elephantipes%29_-_Fruit_and_Spice_Park_-_Homestead%2C_Florida_-_DSC08919.jpg/640px-Yucca_gigantea_%28Yucca_elephantipes%29_-_Fruit_and_Spice_Park_-_Homestead%2C_Florida_-_DSC08919.jpg",
+      },
+    ],
+  },
+  {
+    "família": "BIGNONIACEAE",
+    "Hábito": "Árvores, arbustos ou lianas, frequentemente com gavinhas",
+    Folhas: "Opostas, menos frequentemente verticiladas ou alternas, geralmente compostas, sem estípulas",
+    "Inflorescência": "Cimosa ou racemosa, geralmente paniculada",
+    Flores: "Vistosas, bissexuadas, zigomorfas, diclamídeas, cálice pentâmero, gamossépalo, corola pentâmera, gamopétala, bilabiada, 4 estames, didínamos, com estaminódio, epipétalos, disco nectarífero frequentemente presente, ovário súpero",
+    Fruto: "Cápsula septicida ou loculicida, raramente baga, sementes geralmente aladas",
+    "Espécie": "Cybistax antisyphilitica (Mart.) Mart. [nativa]",
+    "Localização": {
+      label: "22°23'47.1\"S 47°32'40.3\"W",
+      link: "https://maps.app.goo.gl/93LKF3zrJmJ7XaAr7?g_st=iw",
+    },
+    exemplares: [
+      {
+        arquivo: "9.jpg",
+        nome: "Cybistax antisyphilitica (Mart.) Mart.",
+        tag: "Cybistax antisyphilitica (Mart.) Mart.",
+        info: "",
+        link: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Cybistax_antisyphilitica.jpg/640px-Cybistax_antisyphilitica.jpg",
+      },
+    ],
+  },
+  {
+    "família": "BIXACEAE",
+    "Hábito": "Ervas, subarbustos, arbustos ou árvores",
+    Folhas: "Alternas, simples, podem ser profundamente lobadas, com estípulas, margem inteira ou serreada",
+    "Inflorescência": "Paniculada ou racemosa",
+    Flores: "Vistosas, bissexuadas, actinomorfas ou zigomorfas, diclamídeas, cálice pentâmero, dialissépalo, corola pentâmera, dialipétala, estames numerosos, disco nectarífero presente, ovário súpero",
+    Fruto: "Cápsula",
+    "Espécie": "Bixa orellana L. [nativa]",
+    "Localização": {
+      label: "22°23'48.7\"S 47°32'49.3\"W",
+      link: "https://maps.app.goo.gl/jVi3f97kDS9KZVNE9?g_st=iw",
+    },
+    exemplares: [
+      {
+        arquivo: "10.jpg",
+        nome: "Bixa orellana L.",
+        tag: "Bixa orellana L.",
+        info: "",
+        link: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Bixa_orellana_%281%29.jpg/640px-Bixa_orellana_%281%29.jpg",
+      },
+    ],
+  },
+  {
+    "família": "BORAGINACEAE",
+    "Hábito": "Ervas, arbustos ou árvores, raramente lianas",
+    Folhas: "Alternas, simples, sem estípulas, margem inteira ou serreada",
+    "Inflorescência": "Cimosa, muitas vezes escorpioide",
+    Flores: "Frequentemente vistosas, bissexuadas, actinomorfas ou pouco frequentemente zigomorfas, diclamídeas, cálice gamossépalo ou dialissépalo, corola geralmente gamopétala, estames epipétalos, disco nectarífero às vezes presente, ovário súpero",
+    Fruto: "Frequentemente drupa ou esquizocarpo, raramente cápsula",
+    "Espécie": "Cordia ecalyculata Vell. [nativa]",
+    "Localização": {
+      label: "22°23'44.0\"S 47°32'47.6\"W",
+      link: "https://maps.app.goo.gl/UozFh5HB3zqwpSaV6?g_st=iw",
+    },
+    exemplares: [
+      {
+        arquivo: "11.jpg",
+        nome: "Cordia ecalyculata Vell.",
+        tag: "Cordia ecalyculata Vell.",
+        info: "",
+        link: "https://floradigital.ufsc.br/imagens/404ab856fb48aca16f8775e473e94812bb6.jpg",
+      },
+    ],
+  },
+  {
+    "família": "CACTACEAE",
+    "Hábito": "Ervas, geralmente suculentas, caule segmentado em cladódios achatados ou colunares, pouco frequentemente árvores ou arbustos, alguns ramos são encontrados como aréolas, com folhas e escamas modificados em espinhos rígidos ou flexíveis",
+    Folhas: "Modificadas em espinhos ou normais, alternas, simples, ausência de estípulas, geralmente carnosas",
+    "Inflorescência": "Cimosa, geralmente reduzida a uma flor",
+    Flores: "Geralmente vistosas, bissexuadas ou raramente unissexuadas, actinomorfas ou zigomorfas, monoclamídeas, cálice com abundantes sépalas, dialissépalo ou gamossépalo, estames numerosos, disco nectarífero frequente, ovário ínfero, raramente súpero (Pereskia)",
+    Fruto: "Baga ou cápsula carnosa",
+    "Espécie": "Rhodocactus grandifolius (Haw.) F.M.Knuth [nativa]",
+    "Localização": {
+      label: "22°23'47.6\"S 47°32'42.1\"W",
+      link: "https://maps.app.goo.gl/EC4qADPZFFcd2ZXXA?g_st=iw",
+    },
+    exemplares: [
+      {
+        arquivo: "12.jpg",
+        nome: "Rhodocactus grandifolius (Haw.) F.M.Knuth",
+        tag: "Rhodocactus grandifolius (Haw.) F.M.Knuth",
+        info: "",
+        link: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Rose_Cactus_%28Pereskia_grandifolia%29_2.jpg/640px-Rose_Cactus_%28Pereskia_grandifolia%29_2.jpg",
+      },
+    ],
+  },
+  {
+    "família": "CANNABACEAE",
+    "Hábito": "Ervas, arbustos, árvores ou lianas, pode ser espinescente",
+    Folhas: "Alternas ou pouco frequentemente opostas, simples ou compostas, com estípulas, margem inteira ou serreada",
+    "Inflorescência": "Cimosa, raramente reduzida a uma única flor",
+    Flores: "Não vistosas, unissexuadas, actinomorfas, monoclamídeas, cálice dialissépalo ou gamossépalo, estames em número igual ao das sépalas, ovário súpero",
+    Fruto: "Drupa ou aquênio",
+    "Espécie": "Trema micranthum (L.) Blume [nativa]",
+    "Localização": {
+      label: "22°23'46.8\"S 47°32'45.8\"W",
+      link: "https://maps.app.goo.gl/6XWnoxjd4ntgtWL79?g_st=iw",
+    },
+    exemplares: [
+      {
+        arquivo: "13.jpg",
+        nome: "Trema micranthum (L.) Blume",
+        tag: "Trema micranthum (L.) Blume",
+        info: "",
+        link: "https://upload.wikimedia.org/wikipedia/commons/c/c9/Trema_micrantha_%28L.%29_Blume_-_Flickr_-_Alex_Popovkin%2C_Bahia%2C_Brazil_%284%29.jpg",
+      },
+    ],
+  },
+]);
+
+watch(()=>route.path,(v)=>{
+  if(v.split('/').length > 2)
+  router.push('/')
+})
+
+famílias.value.sort((a, b) => a.família.localeCompare(b.família));
+
+const famíliaSelecionada = computed(()=>{
+
+    return famílias.value.find(
+    (fa) => fa.família === route?.path.replace('/','')
+  )})
 const bgImgs = computed(() =>
   Object.fromEntries(
-    famílias.map((f) => [
+    famílias.value.map((f) => [
       f.família,
       `bg-[url('/images/${f.exemplares[0].arquivo}')]`,
     ])
   )
 );
-function select(f: any) {
-  famíliaSelecionada.value = famílias.find(
-    (fa) => fa.família === f.target.textContent
-  );
-}
+onErrorCaptured(()=>false)
+const search=ref("")
 </script>
 
 <template>
   <main
-    class="container p-5 border bg-cover max-h-screen w-auto h-svh bg-[url('/images/21_agustus_8.jpg')]"
+    class="container p-5 border bg-cover max-h-screen w-auto h-svh bg-[url('/images/quadro-floral.avif')]"
   >
     <nav
-      class="p-1 bg-white flex justify-center mx-auto h-svh items-center gap-3"
+      class="p-1 bg-white bg-opacity-80  mx-auto h-svh items-center gap-3"
       v-if="!famíliaSelecionada"
     >
-      <ul >
+    <IconField iconPosition="left" class="w-4/6 mx-auto mb-5">
+    <InputIcon class="pi pi-search"> </InputIcon>
+    
+    <InputText v-model="search" placeholder="Search"/>
+</IconField>
+      <ul class="flex flex-wrap gap-3 justify-around" >
         <li
-          v-for="(_família, i) in famílias"
-          :key="i"
-          @click="(e) => select(e)"
+
+          v-for="(_família) in famílias.filter(f=>f.família.toLowerCase().includes(search.toLowerCase()))"
+          :key="_família.família"
+          @click="
+            (e) => {
+              // console.log(((e.target as any))?.textContent);
+              // console.log(_família.família);
+
+              //  router.replace(((e.target as any))?.textContent)
+              router.push(((e.target as any))?.textContent);
+            }
+          "
+          class="border bg-cover  rounded p-1  flex justify-center flex-col shadow bg-opacity-80 bg-white"
         >
-          <section
-            class="border bg-cover rounded p-5 m-5" :class="bgImgs[_família.família]"
-          >
+        <Image image-class="aspect-square hover:aspect-auto	  " class="mx-auto" :src="(_família as Família).exemplares[0].link??'/images/' + (_família as Família).exemplares[0].arquivo" alt="Image" width="100"  preview />
+          <p :class="bgImgs[_família.família]" >
+          <Button severity="success" outlined size="small">
             {{ _família.família }}
-          </section>
+          </Button>
+          </p>
         </li>
-        
       </ul>
+      
+    <div class="card" v-if="false">
+        <DataView :value="famílias" :layout="'grid'" data-key="família">
+            <template #header>
+                <div class="flex justify-content-end">
+                    <!-- <DataViewLayoutOptions v-model="'grid'" /> -->
+                </div>
+            </template>
+
+            <template #list="slotProps">
+                <div class="grid grid-nogutter">
+                    <div v-for="(item, index) in slotProps.items" :key="index" class="col-12">
+                        <div class="flex flex-column sm:flex-row sm:align-items-center p-4 gap-3" :class="{ 'border-top-1 surface-border': index !== 0 }">
+                            <div class="md:w-10rem relative">
+                                <img class="block xl:block mx-auto border-round w-full" :src="(item as Família).exemplares[0].link??(item as Família).exemplares[0].arquivo" :alt="item.name" />
+                            </div>
+                            <div class="flex flex-column md:flex-row justify-content-between md:align-items-center flex-1 gap-4">
+                                <div class="flex flex-row md:flex-column justify-content-between align-items-start gap-2">
+                                    <div>
+                                        <span class="font-medium text-secondary text-sm">{{ item.category }}</span>
+                                        <div class="text-lg font-medium text-900 mt-2">{{ item.name }}</div>
+                                    </div>
+                                    <div class="surface-100 p-1" style="border-radius: 30px">
+                                        <div class="surface-0 flex align-items-center gap-2 justify-content-center py-1 px-2" style="border-radius: 30px; box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.04), 0px 1px 2px 0px rgba(0, 0, 0, 0.06)">
+                                            <span class="text-900 font-medium text-sm">{{ item.rating }}</span>
+                                            <i class="pi pi-star-fill text-yellow-500"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flex flex-column md:align-items-end gap-5">
+                                    <span class="text-xl font-semibold text-900">${{ item.price }}</span>
+                                    <div class="flex flex-row-reverse md:flex-row gap-2">
+                                        <Button icon="pi pi-heart" outlined></Button>
+                                        <Button icon="pi pi-shopping-cart" label="Buy Now" :disabled="item.inventoryStatus === 'OUTOFSTOCK'" class="flex-auto md:flex-initial white-space-nowrap"></Button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </template>
+
+            <template #grid="slotProps">
+                <div class="grid grid-nogutter">
+                    <div v-for="(item, index) in slotProps.items" :key="index" class="col-12 sm:col-6 md:col-4 xl:col-6 p-2">
+                        <div class="p-4 border-1 surface-border surface-card border-round flex flex-column">
+                            <div class="surface-50 flex justify-content-center border-round p-3">
+                                <div class="relative mx-auto" >
+                                  <Image :src="(item as Família).exemplares[0].link??(item as Família).exemplares[0].arquivo" src="/image.jpg" alt="Image" width="250"  preview />
+                                </div>
+                            </div>
+                            <div class="pt-4">
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </template>
+        </DataView>
+    </div>
+
     </nav>
-    <p class="p-1 bg-white ">
-      <Button
+    <p class="p-1 bg-white">
+      
+    </p>
+    <div 
+    class="bg-white rounded"
+     >
+    
+    <p class=" lg:max-lg:flex justify-between items-center  gap-1 p-1" v-if="famíliaSelecionada" >
+      <a
         v-if="famíliaSelecionada"
         size="small"
+        class="underline text-blue-600 sm:w-full sm:flex-1"
         icon="pi pi-arrow-left"
-        @click="famíliaSelecionada = undefined"
+        @click="router.push('/')"
         label="Voltar"
-      />
+        > <-Voltar
+      </a>
+      <div class="align-middle col-span-1" >
+        <Button
+        class="align-middle text-xs"
+        size="small"
+        severity="success"
+        outlined
+        v-if="famílias.findIndex(f=>famíliaSelecionada?.família===f.família)>0"
+        @click="e=>router.push(((e.target as any))?.textContent)"
+        @focus="(e:any)=>{e.target.blur()}"
+        :label="famílias[famílias.findIndex(f=>famíliaSelecionada?.família===f.família)-1].família "
+        icon="pi pi-arrow-left"
+        
+        icon-pos="left"
+        >
+        </Button>
+      </div>
+       
+        <Button
+        class="align-middle text-xs"
+        severity="success"
+        outlined
+        @focus="(e:any)=>{e.target.blur()}"
+        size="small"
+        v-show="famílias.findIndex(f=>famíliaSelecionada?.família===f.família)<famílias.length-1"
+        @click="e=>router.push(((e.target as any))?.textContent.replace(' ->',''))"
+        :label="famílias[famílias.findIndex(f=>famíliaSelecionada?.família===f.família)+1]?.família "
+        icon="pi pi-arrow-right"
+        
+        icon-pos="right"
+        >
+        
+        </Button>
     </p>
+    <hr />
+    <h1 class="text-2xl text-center mb-2 mt-5 align-bottom ">
+            <strong class="">
+                {{ famíliaSelecionada?.família }}
+            </strong>
+        </h1>
     <Carrossel
       :key="famíliaSelecionada.família"
       v-if="famíliaSelecionada"
-      :família="famíliaSelecionada"
-      class="bg-white rounded"
+      :_família="famíliaSelecionada"
     />
+  </div>
   </main>
 </template>
 
