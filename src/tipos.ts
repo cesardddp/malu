@@ -11,6 +11,8 @@ export type Família = {
     link: string;
   };
   exemplares: Exemplar[];
+  "Microstróbilos"?:string;
+  "Megastróbilos"?:string;
 
   [k: string]:
     | string
@@ -18,14 +20,14 @@ export type Família = {
         label: string;
         link: string;
       }
-    | Exemplar[];
+    | Exemplar[]|undefined;
 };
 
 export type Exemplar = {
   nome: string;
-  tag: string;
-  arquivo: string;
-  info: string;
+  tag?: string;
+  arquivo?: string;
+  info?: string;
   link?: string;
 };
 
