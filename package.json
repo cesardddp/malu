@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --port 65222 --host",
     "build": "vue-tsc && vite build",
     "preview": "vite preview"
   },
@@ -12,7 +12,8 @@
     "primeicons": "^7.0.0",
     "primevue": "^3.52.0",
     "vue": "^3.4.21",
-    "vue-router": "^4.3.2"
+    "vue-router": "^4.3.2",
+    "vue3-google-map": "^0.20.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",

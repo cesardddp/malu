@@ -1,406 +1,1153 @@
 [
     {
-        "família": "APOCYNACEAE",
-        "Hábito": "Ervas, subarbustos, arbustos, árvores, lianas, geralmente latescentes",
-        "Folhas": "Opostas, menos frequentemente alternas ou verticiladas, simples, raramente com estípulas, margem inteira",
-        "Inflorescência": "Racemosa ou cimosa, às vezes uma única flor",
-        "Flores": "Geralmente vistosas, bissexuadas, raramente dioicas ou ginodioicas, actinomorfas ou raramente pouco zigomorfas, diclamídea, cálice pentâmero, dialissépalo ou gamossépalo, corola pentâmera, gamopétala, estames em número igual ao das pétalas, epipétalos, frequentemente glândulas nectaríferas ao redor do ovário, gineceu bicarpelar, dialicarpelar ou menos frequentemente gamocarpelar, ovário súpero, raramente ínfero",
-        "Fruto": "Folículo, seco ou raramente carnoso, ocasionalmente cápsula, drupa ou baga",
-        "Espécie": "Tabernamontana laeta Mart. [nativa]",
-        "Localização": {
-            "label": "22°23'48.3\"S 47°32'48.9\"W",
-            "link": ""
-        },
-        "exemplares": [
-            {
-                "arquivo": "4.png",
-                "nome": "Tabernamontana laeta Mart.",
-                "tag": "Tabernamontana laeta Mart.",
-                "info": ""
-            }
-        ]
-    },
-    {
-        "família": "ANACARDIACEAE",
-        "Hábito": "Arbustos ou árvores, raramente lianas ou ervas, aromáticos",
-        "Folhas": "Geralmente alternas, compostas ou menos frequentemente simples, sem estípulas, margem inteira ou serreada ",
-        "Inflorescência": "Geralmente cimosa ",
-        "Flores": "Pouco vistosas, geralmente unissexuadas, actinomorfas, diclamídeas, cálice geralmente pentâmero, corola geralmente pentâmera, estames em número igual ou duplo ao das pétalas, raramente numerosos ou apenas 1 fértil, disco nectarífero presente, gineceu gamocarpelar, ovário geralmente súpero ",
-        "Fruto": "Em geral drupa ou sâmara ",
-        "Espécie": "Schinus molle L. [nativa]",
-        "Localização": {
-            "label": "22°23'43.5\"S 47°32'32.1\"W ",
-            "link": "https://maps.app.goo.gl/stp9gReT9M9tRF3bA"
-        },
-        "exemplares": [
-            {
-                "arquivo": "2.jpg",
-                "nome": "Schinus_molle_kz01",
-                "tag": "Schinus_molle_kz01",
-                "info": "",
-                "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Schinus_molle_kz01.jpg/640px-Schinus_molle_kz01.jpg"
-            }
-        ]
-    },
-    {
-        "família": "ALTINGIACEAE",
+        "Família": "ALTINGIACEAE",
         "Hábito": "Arbustos ou árvores",
-        "Folhas": "Simples, alternas, com estípulas unidas à base do pecíolo, margem inteira ou serreada, frequentemente lobadas e palminérveas ",
-        "Inflorescência": "Glomérulo ",
-        "Flores": "Unissexuadas, pouco vistosas, actinomorfas, aclamídeas ou flores pistiladas monoclamídeas, sépalas escamiformes, estames 4-numerosos, gineceu incompletamente gamocarpelar, ovário semi-ínfero, estiletes livres entre si. ",
-        "Fruto": " Cápsula ",
-        "Espécie": " Liquidambar styraciflua L. [exótica] ",
+        "Folhas": "Simples, alternas, com estípulas na base do pecíolo, margem inteira ou serreada, frequentemente lobadas e palminérveas",
+        "Inflorescência": "Glomérulo",
+        "Flores": "Unissexuadas, pouco vistosas, actinomorfas, aclamídeas ou flores pistiladas monoclamídeas, sépalas escamiformes, estames 4-numerosos, gineceu incompletamente gamocarpelar, ovário semi-ínfero",
+        "Fruto": "Cápsula",
+        "Espécie": "Liquidambar styraciflua L. [exótica]",
+        "link": "https://commons.wikimedia.org/wiki/Liquidambar_styraciflua#/media/File:Liquidambar_styraciflua3.jpg",
         "Localização": {
-            "label": " 22°23'39.9\"S 47°32'43.7\"W ",
-            "link": ""
-        },
-        "exemplares": [
-            {
-                "arquivo": "1.jpg",
-                "nome": "Liquidambar styraciflua L.",
-                "tag": "Liquidambar styraciflua L.",
-                "info": "Informações adicionais dessa planta info info dessa planta"
+            "label": "22°23'39.9\"S 47°32'43.7\"W",
+            "link": "https://maps.app.goo.gl/hDdpXKENduyFM1AVA?g_st=iw",
+            "coordenadas": {
+                "lat": "-22.394417",
+                "lng": "-47.545472"
             }
-        ]
+        },
+        "exemplares": {
+            "arquivo": "ALTINGIACEAE Liquidambar styraciflua L..jpg",
+            "nome": "Liquidambar styraciflua L. [exótica]",
+            "tag": "Liquidambar styraciflua L. [exótica]",
+            "info": "Liquidambar styraciflua L. [exótica]",
+            "link": "https://commons.wikimedia.org/wiki/Liquidambar_styraciflua#/media/File:Liquidambar_styraciflua3.jpg"
+        }
     },
     {
-        "família": "ANNONACEAE",
-        "Hábito": "Árvores, raramente arbustos, subarbustos ou lianas",
+        "Família": "ANACARDIACEAE",
+        "Hábito": "Arbustos ou árvores, pouco frequente lianas ou ervas, aromáticos",
+        "Folhas": "Geralmente alternas, compostas ou menos frequentemente simples, sem estípulas, margem inteira ou serreada",
+        "Inflorescência": "Geralmente cimosa",
+        "Flores": "Pouco vistosas, geralmente unissexuadas, actinomorfas, diclamídeas, cálice geralmente pentâmero, dialissépalo ou gamossépalo, corola geralmente pentâmera, dialipétala ou gamopétala, estames em número igual ou duplo ao das pétalas, menos frequentemente numerosos ou apenas um fértil, disco nectarífero presente, gineceu gamocarpelar, ovário geralmente súpero",
+        "Fruto": "Em geral drupa ou sâmara",
+        "Espécie": "Schinus molle L. [nativa]",
+        "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Schinus_molle_kz01.jpg/640px-Schinus_molle_kz01.jpg",
+        "Localização": {
+            "label": "22°23'43.5\"S 47°32'32.1\"W",
+            "link": "https://maps.app.goo.gl/fDdgiiy5WYKyKdUr8?g_st=iw",
+            "coordenadas": {
+                "lat": "-22.395417",
+                "lng": "-47.542250"
+            }
+        },
+        "exemplares": {
+            "arquivo": "ANACARDIACEAE Schinus molle.jpg",
+            "nome": "Schinus molle L. [nativa]",
+            "tag": "Schinus molle L. [nativa]",
+            "info": "Schinus molle L. [nativa]",
+            "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Schinus_molle_kz01.jpg/640px-Schinus_molle_kz01.jpg"
+        }
+    },
+    {
+        "Família": "ANNONACEAE",
+        "Hábito": "Árvores, pouco frequente arbustos, subarbustos ou lianas",
         "Folhas": "Alternas, dísticas ou muito raramente espiralas, simples, sem estípulas, margem inteira",
-        "Inflorescência": "Cimosa, às vezes reduzida a uma única flor",
+        "Inflorescência": "Cimosa, às vezes reduzida a uma flor",
         "Flores": "Frequentemente grandes e vistosas, geralmente bissexuadas, diclamídeas, cálice dialissépalo, corola dialipétala, estames geralmente numerosos, gineceu dialicarpelar ou muito raramente gamocarpelar, ovário súpero",
-        "Fruto": "Apocárpico ou sincárpico, bacáceo ou menos frequentemente folicular",
+        "Fruto": "Apocárpico ou sincárpico, bacáceo ou com menos frequência folicular",
         "Espécie": "Annona squamosa L. [nativa]",
+        "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Annona_squamosa_20180921_155649.jpg/640px-Annona_squamosa_20180921_155649.jpg",
         "Localização": {
             "label": "22°23'34.0\"S 47°32'40.2\"W",
-            "link": ""
-        },
-        "exemplares": [
-            {
-                "arquivo": "3.jpg",
-                "nome": "Annona_squamosa_20180921_155649",
-                "tag": "Annona_squamosa_20180921_155649",
-                "info": "",
-                "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Annona_squamosa_20180921_155649.jpg/640px-Annona_squamosa_20180921_155649.jpg"
+            "link": "https://maps.app.goo.gl/aDgAXTshPqLhQcnA8?g_st=iw",
+            "coordenadas": {
+                "lat": "-22.392778",
+                "lng": "-47.544500"
             }
-        ]
+        },
+        "exemplares": {
+            "arquivo": "",
+            "nome": "Annona squamosa L. [nativa]",
+            "tag": "Annona squamosa L. [nativa]",
+            "info": "Annona squamosa L. [nativa]",
+            "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Annona_squamosa_20180921_155649.jpg/640px-Annona_squamosa_20180921_155649.jpg"
+        }
     },
     {
-        "família": "ARALIACEAE",
+        "Família": "APOCYNACEAE",
+        "Hábito": "Ervas, subarbustos, arbustos, lianas, árvores, geralmente latescentes",
+        "Folhas": "Opostas, menos frequentemente alternas ou verticiladas, simples, raramente com estípulas, margem inteira",
+        "Inflorescência": "racemosa ou cimosa, às vezes reduzida a uma flor",
+        "Flores": "Geralmente vistosas, bissexuadas, raramente dioicas ou ginodioicas, actinomorfas ou raramente zigomorfas, diclamídea, cálice pentâmero, dialissépalo ou gamossépalo, corola pentâmera, gamopétala, estames em número igual ao das pétalas, epipétalos, glândulas nectaríferas frequentemente ao redor do ovário, gineceu bicarpelar, dialicarpelar ou menos frequentemente gamocarpelar, ovário súpero, raramente ínfero",
+        "Fruto": "Folículo, seco ou raramente carnoso, ocasionalmente cápsula, drupa ou baga",
+        "Espécie": "Tabernamontana laeta Mart. [nativa]",
+        "link": "https://www.gbif.org/tools/zoom/simple.html?src=//api.gbif.org/v1/image/cache/occurrence/3949392396/media/7fe487e6bb9f6d4165c98f5ec6486a49",
+        "Localização": {
+            "label": "22°23'48.3\"S 47°32'48.9\"W",
+            "link": "https://maps.app.goo.gl/BHK4Wx9L7aHJVLaH8?g_st=iw",
+            "coordenadas": {
+                "lat": "-22.396750",
+                "lng": "-47.546917"
+            }
+        },
+        "exemplares": {
+            "arquivo": "",
+            "nome": "Tabernamontana laeta Mart. [nativa]",
+            "tag": "Tabernamontana laeta Mart. [nativa]",
+            "info": "Tabernamontana laeta Mart. [nativa]",
+            "link": "https://www.gbif.org/tools/zoom/simple.html?src=//api.gbif.org/v1/image/cache/occurrence/3949392396/media/7fe487e6bb9f6d4165c98f5ec6486a49"
+        }
+    },
+    {
+        "Família": "ARALIACEAE",
         "Hábito": "Arbustos ou árvores, com menos frequência ervas ou lianas, raramente epífitas, ocasionalmente aromáticos",
         "Folhas": "Alternas ou muito raramente opostas ou verticiladas, compostas ou raramente simples, com ou sem estípulas",
         "Inflorescência": "Umbela simples ou composta, pouco frequente glomérulos",
         "Flores": "Não vistosas ou pouco vistosas, geralmente bissexuadas, actinomorfas, diclamídeas ou raramente monoclamídeas, cálice geralmente pouco desenvolvido e pentâmero, dialissépalo, corola dialipétala, raramente gamopétala ou formando caliptra, estames 3-numerosos, ovário ínfero ou muito raramente súpero",
         "Fruto": "Drupa ou baga, raramente esquizocarpo",
         "Espécie": "Aralia warmingiana (Marchal) J.Wen [nativa]",
+        "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Contributions_from_the_United_States_National_Herbarium_%282011%29_%2820066468984%29.jpg/640px-Contributions_from_the_United_States_National_Herbarium_%282011%29_%2820066468984%29.jpg",
         "Localização": {
             "label": "22°23'46.8\"S 47°32'46.0\"W",
-            "link": "https://maps.app.goo.gl/foqqpmT9TLj6woht8?g_st=iw"
-        },
-        "exemplares": [
-            {
-                "arquivo": "5.jpg",
-                "nome": "Aralia warmingiana (Marchal) J.Wen",
-                "tag": "Aralia warmingiana (Marchal) J.Wen",
-                "info": "",
-                "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Contributions_from_the_United_States_National_Herbarium_%282011%29_%2820066468984%29.jpg/640px-Contributions_from_the_United_States_National_Herbarium_%282011%29_%2820066468984%29.jpg"
+            "link": "https://maps.app.goo.gl/foqqpmT9TLj6woht8?g_st=iw",
+            "coordenadas": {
+                "lat": "-22.396333",
+                "lng": "-47.546111"
             }
-        ]
+        },
+        "exemplares": {
+            "arquivo": "",
+            "nome": "Aralia warmingiana (Marchal) J.Wen [nativa]",
+            "tag": "Aralia warmingiana (Marchal) J.Wen [nativa]",
+            "info": "Aralia warmingiana (Marchal) J.Wen [nativa]",
+            "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Contributions_from_the_United_States_National_Herbarium_%282011%29_%2820066468984%29.jpg/640px-Contributions_from_the_United_States_National_Herbarium_%282011%29_%2820066468984%29.jpg"
+        }
     },
     {
-        "família": "ARAUCARIACEAE",
+        "Família": "ARAUCARIACEAE",
         "Hábito": "Árvores dioicas ou monoicas",
-        "Folhas": "Simples, sésseis ou com curto pecíolo, alternas espiraladas, raramente alternas dísticas ou opostas, podem ser imbricadas (Araucaria), geralmente uninérveas e pungentes, margem inteira,Simples, sésseis ou com curto pecíolo, alternas espiraladas, raramente alternas dísticas ou opostas, podem ser imbricadas (Araucaria), geralmente uninérveas e pungentes, margem inteiraSimples, sésseis ou com curto pecíolo, alternas espiraladas, raramente alternas dísticas ou opostas, podem ser imbricadas (Araucaria), geralmente uninérveas e pungentes, margem inteiraSimples, sésseis ou com curto pecíolo, alternas espiraladas, raramente alternas dísticas ou opostas, podem ser imbricadas (Araucaria), geralmente uninérveas e pungentes, margem inteiraSimples, sésseis ou com curto pecíolo, alternas espiraladas, raramente alternas dísticas ou opostas, podem ser imbricadas (Araucaria), geralmente uninérveas e pungentes, margem inteiraSimples, sésseis ou com curto pecíolo, alternas espiraladas, raramente alternas dísticas ou opostas, podem ser imbricadas (Araucaria), geralmente uninérveas e pungentes, margem inteiraSimples, sésseis ou com curto pecíolo, alternas espiraladas, raramente alternas dísticas ou opostas, podem ser imbricadas (Araucaria), geralmente uninérveas e pungentes, margem inteiraSimples, sésseis ou com curto pecíolo, alternas espiraladas, raramente alternas dísticas ou opostas, podem ser imbricadas (Araucaria), geralmente uninérveas e pungentes, margem inteiraSimples, sésseis ou com curto pecíolo, alternas espiraladas, raramente alternas dísticas ou opostas, podem ser imbricadas (Araucaria), geralmente uninérveas e pungentes, margem inteiraSimples, sésseis ou com curto pecíolo, alternas espiraladas, raramente alternas dísticas ou opostas, podem ser imbricadas (Araucaria), geralmente uninérveas e pungentes, margem inteiraSimples, sésseis ou com curto pecíolo, alternas espiraladas, raramente alternas dísticas ou opostas, podem ser imbricadas (Araucaria), geralmente uninérveas e pungentes, margem inteira",
-        "Microstróbilos": "Abundantes microsporófilos que apresentam de 6-20 microsporângios, grãos de pólen sem vesículas de ar",
+        "Folhas": "Simples, sésseis ou com curto pecíolo, alternas espiraladas, raramente alternas dísticas ou opostas, podem ser imbricadas (Araucaria), geralmente uninérveas e pungentes, margem inteira",
+        "Microstróbilos": "Abundantes microsporófilos, grãos de pólen sem vesículas de ar.",
         "Megastróbilos": "Maiores e menos abundantes do que os microstróbilos, com muitos megasporófilos uniovulados",
         "Sementes": "Aladas ou não",
         "Espécie": "Araucaria angustifolia (Bertol.) Kuntze [nativa]",
+        "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Araucaria_angustifolia_cones_%285407003438%29.jpg/640px-Araucaria_angustifolia_cones_%285407003438%29.jpg",
         "Localização": {
             "label": "22°23'33.3\"S 47°32'39.4\"W",
-            "link": "https://maps.app.goo.gl/bq1kscJ9nVE4FCWi7?g_st=iw"
-        },
-        "exemplares": [
-            {
-                "arquivo": "6.jpg",
-                "nome": "Araucaria angustifolia (Bertol.) Kuntze",
-                "tag": "Araucaria angustifolia (Bertol.) Kuntze",
-                "info": "",
-                "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Araucaria_angustifolia_cones_%285407003438%29.jpg/640px-Araucaria_angustifolia_cones_%285407003438%29.jpg"
+            "link": "https://maps.app.goo.gl/bq1kscJ9nVE4FCWi7?g_st=iw",
+            "coordenadas": {
+                "lat": "-22.392583",
+                "lng": "-47.544278"
             }
-        ]
+        },
+        "exemplares": {
+            "arquivo": "ARAUCARIACEAE Araucaria angustifolia (Bertol.) Kuntze.jpg",
+            "nome": "Araucaria angustifolia (Bertol.) Kuntze [nativa]",
+            "tag": "Araucaria angustifolia (Bertol.) Kuntze [nativa]",
+            "info": "Araucaria angustifolia (Bertol.) Kuntze [nativa]",
+            "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Araucaria_angustifolia_cones_%285407003438%29.jpg/640px-Araucaria_angustifolia_cones_%285407003438%29.jpg"
+        }
     },
     {
-        "família": "ARECACEAE",
+        "Família": "ARECACEAE",
         "Hábito": "Palmeiras, estipe frequentemente lenhoso, simples ou ocasionalmente ramificado, geralmente com espinhos, às vezes subterrâneo, raramente lianas",
         "Folhas": "Pecioladas, simples, pinatipartidas ou flabeliformes, alternas espiraladas ou menos frequentemente dísticas, palmatinérveas ou seguimentos foliares paralelinérveos no ápice do estipe",
         "Inflorescência": "Panícula, laxa ou compacta e espiciforme, estendida por baixo de uma bráctea comumente lenhosa",
         "Flores": "Geralmente pouco vistosas, unissexuadas ou raramente bissexuadas, actinomorfas, geralmente diclamídeas e heteroclamídeas, cálice gamossépalo ou dialissépalo, corola gamopétala ou dialipétala, estames livres ou unido entre si, gineceu geralmente gamocarpelar, ovário súpero, nectários às vezes presentes",
         "Fruto": "Drupa ou menos frequentemente baga, geralmente indeiscente com uma única semente",
         "Espécie": "Syagrus oleracea (Mart.) Becc. [nativa]",
+        "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Syagrus-oleracea.jpg/640px-Syagrus-oleracea.jpg",
         "Localização": {
             "label": "22°23'48.1\"S 47°32'43.5\"W",
-            "link": "https://maps.app.goo.gl/pv3nQDjF7Q6mEUWSA?g_st=iw"
-        },
-        "exemplares": [
-            {
-                "arquivo": "7.jpg",
-                "nome": "Syagrus oleracea (Mart.) Becc.",
-                "tag": "Syagrus oleracea (Mart.) Becc.",
-                "info": "",
-                "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Syagrus-oleracea.jpg/640px-Syagrus-oleracea.jpg"
+            "link": "https://maps.app.goo.gl/pv3nQDjF7Q6mEUWSA?g_st=iw",
+            "coordenadas": {
+                "lat": "-22.396694",
+                "lng": "-47.545417"
             }
-        ]
+        },
+        "exemplares": {
+            "arquivo": "",
+            "nome": "Syagrus oleracea (Mart.) Becc. [nativa]",
+            "tag": "Syagrus oleracea (Mart.) Becc. [nativa]",
+            "info": "Syagrus oleracea (Mart.) Becc. [nativa]",
+            "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Syagrus-oleracea.jpg/640px-Syagrus-oleracea.jpg"
+        }
     },
     {
-        "família": "ASPARAGACEAE",
+        "Família": "ASPARAGACEAE",
         "Hábito": "Ervas, lianas, arbustos ou arborescentes, ocasionalmente com rizomas ou bulbos",
         "Folhas": "Alternas espiraladas ou dísticas, raramente opostas, paralelinérveas, às vezes suculentas ou escamiformes, com ou sem bainha, margem inteira ou menos frequentemente espinescente",
         "Inflorescência": "Cimosa ou racemosa",
         "Flores": "Vistosas, bissexuadas ou unissexuadas, actinomorfas ou levemente zigomorfas, diclamídeas e homoclamídeas, cálice e corola geralmente unidos, estames livres entre si, pode apresentar nectários septais, gineceu gamocarpelar, ovário súpero ou ínfero",
         "Fruto": "Cápsula ou baga",
         "Espécie": "Yucca gigantea Lem. [exótica]",
+        "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Yucca_gigantea_%28Yucca_elephantipes%29_-_Fruit_and_Spice_Park_-_Homestead%2C_Florida_-_DSC08919.jpg/640px-Yucca_gigantea_%28Yucca_elephantipes%29_-_Fruit_and_Spice_Park_-_Homestead%2C_Florida_-_DSC08919.jpg",
         "Localização": {
             "label": "22°23'52.7\"S 47°32'38.3\"W",
-            "link": "https://maps.app.goo.gl/F9RPC1f6EC6y3HaC7?g_st=iw"
-        },
-        "exemplares": [
-            {
-                "arquivo": "8.jpg",
-                "nome": "Yucca gigantea Lem.",
-                "tag": "Yucca gigantea Lem.",
-                "info": "",
-                "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Yucca_gigantea_%28Yucca_elephantipes%29_-_Fruit_and_Spice_Park_-_Homestead%2C_Florida_-_DSC08919.jpg/640px-Yucca_gigantea_%28Yucca_elephantipes%29_-_Fruit_and_Spice_Park_-_Homestead%2C_Florida_-_DSC08919.jpg"
+            "link": "https://maps.app.goo.gl/F9RPC1f6EC6y3HaC7?g_st=iw",
+            "coordenadas": {
+                "lat": "-22.397972",
+                "lng": "-47.543972"
             }
-        ]
+        },
+        "exemplares": {
+            "arquivo": "",
+            "nome": "Yucca gigantea Lem. [exótica]",
+            "tag": "Yucca gigantea Lem. [exótica]",
+            "info": "Yucca gigantea Lem. [exótica]",
+            "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Yucca_gigantea_%28Yucca_elephantipes%29_-_Fruit_and_Spice_Park_-_Homestead%2C_Florida_-_DSC08919.jpg/640px-Yucca_gigantea_%28Yucca_elephantipes%29_-_Fruit_and_Spice_Park_-_Homestead%2C_Florida_-_DSC08919.jpg"
+        }
     },
     {
-        "família": "BIGNONIACEAE",
+        "Família": "BIGNONIACEAE",
         "Hábito": "Árvores, arbustos ou lianas, frequentemente com gavinhas",
         "Folhas": "Opostas, menos frequentemente verticiladas ou alternas, geralmente compostas, sem estípulas",
         "Inflorescência": "Cimosa ou racemosa, geralmente paniculada",
         "Flores": "Vistosas, bissexuadas, zigomorfas, diclamídeas, cálice pentâmero, gamossépalo, corola pentâmera, gamopétala, bilabiada, 4 estames, didínamos, com estaminódio, epipétalos, disco nectarífero frequentemente presente, ovário súpero",
         "Fruto": "Cápsula septicida ou loculicida, raramente baga, sementes geralmente aladas",
         "Espécie": "Cybistax antisyphilitica (Mart.) Mart. [nativa]",
+        "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Cybistax_antisyphilitica.jpg/640px-Cybistax_antisyphilitica.jpg",
         "Localização": {
             "label": "22°23'47.1\"S 47°32'40.3\"W",
-            "link": "https://maps.app.goo.gl/93LKF3zrJmJ7XaAr7?g_st=iw"
-        },
-        "exemplares": [
-            {
-                "arquivo": "9.jpg",
-                "nome": "Cybistax antisyphilitica (Mart.) Mart.",
-                "tag": "Cybistax antisyphilitica (Mart.) Mart.",
-                "info": "",
-                "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Cybistax_antisyphilitica.jpg/640px-Cybistax_antisyphilitica.jpg"
+            "link": "https://maps.app.goo.gl/93LKF3zrJmJ7XaAr7?g_st=iw",
+            "coordenadas": {
+                "lat": "-22.396417",
+                "lng": "-47.544528"
             }
-        ]
+        },
+        "exemplares": {
+            "arquivo": "",
+            "nome": "Cybistax antisyphilitica (Mart.) Mart. [nativa]",
+            "tag": "Cybistax antisyphilitica (Mart.) Mart. [nativa]",
+            "info": "Cybistax antisyphilitica (Mart.) Mart. [nativa]",
+            "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Cybistax_antisyphilitica.jpg/640px-Cybistax_antisyphilitica.jpg"
+        }
     },
     {
-        "família": "BIXACEAE",
+        "Família": "BIXACEAE",
         "Hábito": "Ervas, subarbustos, arbustos ou árvores",
         "Folhas": "Alternas, simples, podem ser profundamente lobadas, com estípulas, margem inteira ou serreada",
         "Inflorescência": "Paniculada ou racemosa",
         "Flores": "Vistosas, bissexuadas, actinomorfas ou zigomorfas, diclamídeas, cálice pentâmero, dialissépalo, corola pentâmera, dialipétala, estames numerosos, disco nectarífero presente, ovário súpero",
         "Fruto": "Cápsula",
         "Espécie": "Bixa orellana L. [nativa]",
+        "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Bixa_orellana_%281%29.jpg/640px-Bixa_orellana_%281%29.jpg",
         "Localização": {
             "label": "22°23'48.7\"S 47°32'49.3\"W",
-            "link": "https://maps.app.goo.gl/jVi3f97kDS9KZVNE9?g_st=iw"
-        },
-        "exemplares": [
-            {
-                "arquivo": "10.jpg",
-                "nome": "Bixa orellana L.",
-                "tag": "Bixa orellana L.",
-                "info": "",
-                "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Bixa_orellana_%281%29.jpg/640px-Bixa_orellana_%281%29.jpg"
+            "link": "https://maps.app.goo.gl/jVi3f97kDS9KZVNE9?g_st=iw",
+            "coordenadas": {
+                "lat": "-22.396861",
+                "lng": "-47.547028"
             }
-        ]
+        },
+        "exemplares": {
+            "arquivo": "",
+            "nome": "Bixa orellana L. [nativa]",
+            "tag": "Bixa orellana L. [nativa]",
+            "info": "Bixa orellana L. [nativa]",
+            "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Bixa_orellana_%281%29.jpg/640px-Bixa_orellana_%281%29.jpg"
+        }
     },
     {
-        "família": "BORAGINACEAE",
+        "Família": "BORAGINACEAE",
         "Hábito": "Ervas, arbustos ou árvores, raramente lianas",
         "Folhas": "Alternas, simples, sem estípulas, margem inteira ou serreada",
         "Inflorescência": "Cimosa, muitas vezes escorpioide",
         "Flores": "Frequentemente vistosas, bissexuadas, actinomorfas ou pouco frequentemente zigomorfas, diclamídeas, cálice gamossépalo ou dialissépalo, corola geralmente gamopétala, estames epipétalos, disco nectarífero às vezes presente, ovário súpero",
         "Fruto": "Frequentemente drupa ou esquizocarpo, raramente cápsula",
         "Espécie": "Cordia ecalyculata Vell. [nativa]",
+        "link": "https://floradigital.ufsc.br/imagens/404ab856fb48aca16f8775e473e94812bb6.jpg",
         "Localização": {
             "label": "22°23'44.0\"S 47°32'47.6\"W",
-            "link": "https://maps.app.goo.gl/UozFh5HB3zqwpSaV6?g_st=iw"
-        },
-        "exemplares": [
-            {
-                "arquivo": "11.jpg",
-                "nome": "Cordia ecalyculata Vell.",
-                "tag": "Cordia ecalyculata Vell.",
-                "info": "",
-                "link": "https://floradigital.ufsc.br/imagens/404ab856fb48aca16f8775e473e94812bb6.jpg"
+            "link": "https://maps.app.goo.gl/UozFh5HB3zqwpSaV6?g_st=iw",
+            "coordenadas": {
+                "lat": "-22.395556",
+                "lng": "-47.546556"
             }
-        ]
+        },
+        "exemplares": {
+            "arquivo": "",
+            "nome": "Cordia ecalyculata Vell. [nativa]",
+            "tag": "Cordia ecalyculata Vell. [nativa]",
+            "info": "Cordia ecalyculata Vell. [nativa]",
+            "link": "https://floradigital.ufsc.br/imagens/404ab856fb48aca16f8775e473e94812bb6.jpg"
+        }
     },
     {
-        "família": "CACTACEAE",
-        "Hábito": "Ervas, geralmente suculentas, caule segmentado em cladódios achatados ou colunares, pouco frequentemente árvores ou arbustos, alguns ramos são encontrados como aréolas, com Folhas e escamas modificados em espinhos rígidos ou flexíveis",
+        "Família": "CACTACEAE",
+        "Hábito": "Ervas, geralmente suculentas, caule segmentado em cladódios achatados ou colunares, pouco frequentemente árvores ou arbustos, alguns ramos são encontrados como aréolas, com folhas e escamas modificados em espinhos rígidos ou flexíveis",
         "Folhas": "Modificadas em espinhos ou normais, alternas, simples, ausência de estípulas, geralmente carnosas",
         "Inflorescência": "Cimosa, geralmente reduzida a uma flor",
         "Flores": "Geralmente vistosas, bissexuadas ou raramente unissexuadas, actinomorfas ou zigomorfas, monoclamídeas, cálice com abundantes sépalas, dialissépalo ou gamossépalo, estames numerosos, disco nectarífero frequente, ovário ínfero, raramente súpero (Pereskia)",
         "Fruto": "Baga ou cápsula carnosa",
-        "Espécie": "Rhodocactus grandifolius (Haw.) F.M.Knuth [nativa]",
+        "Espécie": "Rhodocactus grandifolius (Haw.) F.M.Knuth [nativa]",
+        "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Rose_Cactus_%28Pereskia_grandifolia%29_2.jpg/640px-Rose_Cactus_%28Pereskia_grandifolia%29_2.jpg",
         "Localização": {
             "label": "22°23'47.6\"S 47°32'42.1\"W",
-            "link": "https://maps.app.goo.gl/EC4qADPZFFcd2ZXXA?g_st=iw"
-        },
-        "exemplares": [
-            {
-                "arquivo": "12.jpg",
-                "nome": "Rhodocactus grandifolius (Haw.) F.M.Knuth",
-                "tag": "Rhodocactus grandifolius (Haw.) F.M.Knuth",
-                "info": "",
-                "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Rose_Cactus_%28Pereskia_grandifolia%29_2.jpg/640px-Rose_Cactus_%28Pereskia_grandifolia%29_2.jpg"
+            "link": "https://maps.app.goo.gl/EC4qADPZFFcd2ZXXA?g_st=iw",
+            "coordenadas": {
+                "lat": "-22.396556",
+                "lng": "-47.545028"
             }
-        ]
+        },
+        "exemplares": {
+            "arquivo": "",
+            "nome": "Rhodocactus grandifolius (Haw.) F.M.Knuth [nativa]",
+            "tag": "Rhodocactus grandifolius (Haw.) F.M.Knuth [nativa]",
+            "info": "Rhodocactus grandifolius (Haw.) F.M.Knuth [nativa]",
+            "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Rose_Cactus_%28Pereskia_grandifolia%29_2.jpg/640px-Rose_Cactus_%28Pereskia_grandifolia%29_2.jpg"
+        }
     },
     {
-        "família": "CANNABACEAE",
+        "Família": "CANNABACEAE",
         "Hábito": "Ervas, arbustos, árvores ou lianas, pode ser espinescente",
         "Folhas": "Alternas ou pouco frequentemente opostas, simples ou compostas, com estípulas, margem inteira ou serreada",
         "Inflorescência": "Cimosa, raramente reduzida a uma única flor",
         "Flores": "Não vistosas, unissexuadas, actinomorfas, monoclamídeas, cálice dialissépalo ou gamossépalo, estames em número igual ao das sépalas, ovário súpero",
         "Fruto": "Drupa ou aquênio",
         "Espécie": "Trema micranthum (L.) Blume [nativa]",
+        "link": "https://commons.wikimedia.org/wiki/File:Trema_micrantha_(L.)_Blume_-_Flickr_-_Alex_Popovkin,_Bahia,_Brazil_(4).jpg",
         "Localização": {
             "label": "22°23'46.8\"S 47°32'45.8\"W",
-            "link": "https://maps.app.goo.gl/6XWnoxjd4ntgtWL79?g_st=iw"
-        },
-        "exemplares": [
-            {
-                "arquivo": "13.jpg",
-                "nome": "Trema micranthum (L.) Blume",
-                "tag": "Trema micranthum (L.) Blume",
-                "info": "",
-                "link": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Trema_micrantha_%28L.%29_Blume_-_Flickr_-_Alex_Popovkin%2C_Bahia%2C_Brazil_%284%29.jpg"
+            "link": "https://maps.app.goo.gl/6XWnoxjd4ntgtWL79?g_st=iw",
+            "coordenadas": {
+                "lat": "-22.396333",
+                "lng": "-47.546056"
             }
-        ]
+        },
+        "exemplares": {
+            "arquivo": "",
+            "nome": "Trema micranthum (L.) Blume [nativa]",
+            "tag": "Trema micranthum (L.) Blume [nativa]",
+            "info": "Trema micranthum (L.) Blume [nativa]",
+            "link": "https://commons.wikimedia.org/wiki/File:Trema_micrantha_(L.)_Blume_-_Flickr_-_Alex_Popovkin,_Bahia,_Brazil_(4).jpg"
+        }
     },
     {
-        "família": "CASUARINACEAE",
+        "Família": "CASUARINACEAE",
         "Hábito": "Arbustos ou árvores",
         "Folhas": "Folhas simples, verticiladas, escamiformes, sem estípulas",
-        "inflorescencia": "Espiga nas flores estaminadas, glomérulo nas flores pistiladas",
-        "flores": "Unissexuadas, actinomorfas, aclamídeas ou monoclamídeas, cálice dímero, sépalas escamiformes, 1 estame, gineceu gamocarpelar, ovário bicarpelar com apenas um lóculo fértil",
-        "fruto": "Sâmara, envolto por brácteas lenhosas",
-        "Espécie": "Casuarina equisetifolia L.",
+        "Inflorescência": "Espiga nas flores estaminadas, glomérulo nas flores pistiladas",
+        "Flores": "Unissexuadas, actinomorfas, aclamídeas ou monoclamídeas, cálice dímero, sépalas escamiformes, 1 estame, gineceu gamocarpelar, ovário bicarpelar com apenas um lóculo fértil",
+        "Fruto": "Sâmara, envolto por brácteas lenhosas",
+        "Espécie": "Casuarina equisetifolia L. [exótica]",
+        "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Casuarina_equisetifolia_L._%2852707219792%29.jpg/640px-Casuarina_equisetifolia_L._%2852707219792%29.jpg",
         "Localização": {
             "label": "22°23'48.3\"S 47°32'59.1\"W",
-            "link": ""
-        },
-        "maps_url": "https://maps.app.goo.gl/JVW5jCteg3dJTz7fA?g_st=iw",
-        "exemplares": [
-            {
-                "nome": "Casuarina equisetifolia L.",
-                "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Casuarina_equisetifolia_L._%2852707219792%29.jpg/640px-Casuarina_equisetifolia_L._%2852707219792%29.jpg"
+            "link": "https://maps.app.goo.gl/JVW5jCteg3dJTz7fA?g_st=iw",
+            "coordenadas": {
+                "lat": "-22.396750",
+                "lng": "-47.549750"
             }
-        ]
+        },
+        "exemplares": {
+            "arquivo": "",
+            "nome": "Casuarina equisetifolia L. [exótica]",
+            "tag": "Casuarina equisetifolia L. [exótica]",
+            "info": "Casuarina equisetifolia L. [exótica]",
+            "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Casuarina_equisetifolia_L._%2852707219792%29.jpg/640px-Casuarina_equisetifolia_L._%2852707219792%29.jpg"
+        }
     },
     {
-        "família": "COMBRETACEAE",
+        "Família": "COMBRETACEAE",
         "Hábito": "Árvores, arbustos ou lianas",
         "Folhas": "Opostas, com menos frequência alternas ou verticiladas, simples, estípulas vestigiais quando presentes, margem inteira, peninérveas, no caso das espécies arbóreas concentradas no ápice dos ramos, às vezes com nectários extraflorais",
-        "inflorescencia": "Racemosa, frequentemente do tipo espiga, raramente cimosa",
-        "flores": "Geralmente pouco vistosas, bissexuadas ou raramente unissexuadas, actinomorfas ou raramente zigomorfas, monoclamídeas ou diclamídeas, cálice dialissépalo ou gamossépalo, corola dialipétala, estames frequentemente exsertos e vistosos, disco nectarífero geralmente presente, ovário ínfero",
-        "fruto": "Drupa ou sâmara, raramente deiscente",
+        "Inflorescência": "Racemosa, frequentemente do tipo espiga, raramente cimosa",
+        "Flores": "Geralmente pouco vistosas, bissexuadas ou raramente unissexuadas, actinomorfas ou raramente zigomorfas, monoclamídeas ou diclamídeas, cálice dialissépalo ou gamossépalo, corola dialipétala, estames frequentemente exsertos e vistosos, disco nectarífero geralmente presente, ovário ínfero",
+        "Fruto": "Drupa ou sâmara, raramente deiscente",
         "Espécie": "Terminalia argentea Mart. [nativa]",
+        "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Terminalia_argentea.jpg/640px-Terminalia_argentea.jpg",
         "Localização": {
             "label": "22°23'47.8\"S 47°32'45.1\"W",
-            "link": ""
-        },
-        "maps_url": "https://maps.app.goo.gl/Wqwp9rfdbQunVq1u7?g_st=iw",
-        "exemplares": [
-            {
-                "nome": "Terminalia argentea Mart.",
-                "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Terminalia_argentea.jpg/640px-Terminalia_argentea.jpg"
+            "link": "https://maps.app.goo.gl/Wqwp9rfdbQunVq1u7?g_st=iw",
+            "coordenadas": {
+                "lat": "-22.396611",
+                "lng": "-47.545861"
             }
-        ]
+        },
+        "exemplares": {
+            "arquivo": "",
+            "nome": "Terminalia argentea Mart. [nativa]",
+            "tag": "Terminalia argentea Mart. [nativa]",
+            "info": "Terminalia argentea Mart. [nativa]",
+            "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Terminalia_argentea.jpg/640px-Terminalia_argentea.jpg"
+        }
     },
     {
-        "família": "CUPRESSACEAE",
+        "Família": "CUPRESSACEAE",
         "Hábito": "Árvores ou arbustos, monoicos ou menos frequentemente dioicos",
         "Folhas": "Simples, geralmente escamiformes, raramente lineares, lanceoladas ou aciculares, alternas, opostas ou verticiladas, uninérveas e frequentemente pungentes",
-        "microstrobilos": "Numerosos microsporófilos, grãos de pólen sem vesículas de ar",
-        "megastrobilos": "Numerosos megasporófilos",
-        "sementes": "Aladas ou menos frequentemente não aladas",
-        "Espécie": "Cupressus sempervirens L.",
+        "Microstróbilos": "Numerosos microsporófilos, grãos de pólen sem vesículas de ar",
+        "Megastróbilos": "Numerosos megasporófilos",
+        "Sementes": "Aladas ou menos frequentemente não aladas",
+        "Espécie": "Cupressus sempervirens L. [exótica]",
+        "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Fresh_Cupressus_sempervirens_cones.jpg/640px-Fresh_Cupressus_sempervirens_cones.jpg",
         "Localização": {
             "label": "22°23'50.6\"S 47°32'58.8\"W",
-            "link": ""
-        },
-        "maps_url": "https://maps.app.goo.gl/DdDHJV5FxfNwkhym7?g_st=iw",
-        "exemplares": [
-            {
-                "nome": "Cupressus sempervirens L.",
-                "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Fresh_Cupressus_sempervirens_cones.jpg/640px-Fresh_Cupressus_sempervirens_cones.jpg"
+            "link": "https://maps.app.goo.gl/DdDHJV5FxfNwkhym7?g_st=iw",
+            "coordenadas": {
+                "lat": "-22.397389",
+                "lng": "-47.549667"
             }
-        ]
+        },
+        "exemplares": {
+            "arquivo": "",
+            "nome": "Cupressus sempervirens L. [exótica]",
+            "tag": "Cupressus sempervirens L. [exótica]",
+            "info": "Cupressus sempervirens L. [exótica]",
+            "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Fresh_Cupressus_sempervirens_cones.jpg/640px-Fresh_Cupressus_sempervirens_cones.jpg"
+        }
     },
     {
-        "família": "DILLENIACEAE",
+        "Família": "DILLENIACEAE",
         "Hábito": "Arbustos, árvores ou lianas, menos frequentemente ervas",
-        "Folhas": "Alternas, simples, geralmente sem estípulas, com nervuras secundárias até a margem das Folhas, formando denticulado",
-        "inflorescencia": "Cimosa ou racemosa, geralmente paniculada ou disposta em glomérulos, às vezes reduzida a fascículos ou a uma flor",
-        "flores": "Pouco ou muito vistosas, geralmente bissexuadas, actinomorfas, diclamídeas, cálice dialissépalo, geralmente as sépalas são persistentes na frutificação e envolvem o fruto, corola dialipétala, estames geralmente numerosos, gineceu frequentemente dialicarpelar, ovário súpero",
-        "fruto": "Apocárpico sendo os frutículos deiscentes ou indeiscentes, ou baga",
-        "Espécie": "Dillenia indica L.",
+        "Folhas": "Alternas, simples, geralmente sem estípulas, com nervuras secundárias até a margem das folhas, formando denticulado",
+        "Inflorescência": "Cimosa ou racemosa, geralmente paniculada ou disposta em glomérulos, às vezes reduzida a fascículos ou a uma flor",
+        "Flores": "Pouco ou muito vistosas, geralmente bissexuadas, actinomorfas, diclamídeas, cálice dialissépalo, geralmente as sépalas são persistentes na frutificação e envolvem o fruto, corola dialipétala, estames geralmente numerosos, gineceu frequentemente dialicarpelar, ovário súpero",
+        "Fruto": "Apocárpico sendo os frutículos deiscentes ou indeiscentes, ou baga",
+        "Espécie": "Dillenia indica L. [exótica]",
+        "link": "https://upload.wikimedia.org/wikipedia/commons/8/84/Dillenia_indica_-_Elephant_Apple_at_Kakkayam_dam_%283%29.jpg",
         "Localização": {
             "label": "22°23'49.4\"S 47°32'47.1\"W",
-            "link": ""
-        },
-        "maps_url": "https://maps.app.goo.gl/BWFNRZpomvxsZunQ9?g_st=iw",
-        "exemplares": [
-            {
-                "nome": "Dillenia indica L.",
-                "link": "https://upload.wikimedia.org/wikipedia/commons/8/84/Dillenia_indica_-_Elephant_Apple_at_Kakkayam_dam_%283%29.jpg"
+            "link": "https://maps.app.goo.gl/BWFNRZpomvxsZunQ9?g_st=iw",
+            "coordenadas": {
+                "lat": "-22.397056",
+                "lng": "-47.546417"
             }
-        ]
+        },
+        "exemplares": {
+            "arquivo": "",
+            "nome": "Dillenia indica L. [exótica]",
+            "tag": "Dillenia indica L. [exótica]",
+            "info": "Dillenia indica L. [exótica]",
+            "link": "https://upload.wikimedia.org/wikipedia/commons/8/84/Dillenia_indica_-_Elephant_Apple_at_Kakkayam_dam_%283%29.jpg"
+        }
     },
     {
-        "família": "ELAEOCARPACEAE",
+        "Família": "ELAEOCARPACEAE",
         "Hábito": "Árvores, raramente arbustos",
         "Folhas": "Alternas, simples, com estípulas, margem geralmente serreada",
-        "inflorescencia": "Cimosa ou racemosa",
-        "flores": "Frequentemente pouco vistosas, geralmente bissexuadas, actinomorfas, diclamídeas ou monoclamídeas, cálice gamossépalo ou dialissépalo, corola dialipétala, estames numerosos e livres entre si, disco nectarífero às vezes presente, ovário súpero",
-        "fruto": "Drupa ou cápsula com sementes ariladas, raramente baga",
-        "Espécie": "Elaeocarpus serratus L.",
+        "Inflorescência": "Cimosa ou racemosa",
+        "Flores": "Frequentemente pouco vistosas, geralmente bissexuadas, actinomorfas, diclamídeas ou monoclamídeas, cálice gamossépalo ou dialissépalo, corola dialipétala, estames numerosos e livres entre si, disco nectarífero às vezes presente, ovário súpero",
+        "Fruto": "Drupa ou cápsula com sementes ariladas, raramente baga",
+        "Espécie": "Elaeocarpus serratus L. [exótica]",
+        "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/A_hand-book_to_the_flora_of_Ceylon_%28Plate_XX%29_%286430638977%29.jpg/640px-A_hand-book_to_the_flora_of_Ceylon_%28Plate_XX%29_%286430638977%29.jpg",
         "Localização": {
             "label": "22°23'45.7\"S 47°32'36.3\"W",
-            "link": ""
-        },
-        "maps_url": "https://maps.app.goo.gl/QesKE4VPccotN9by9?g_st=iw",
-        "exemplares": [
-            {
-                "nome": "Elaeocarpus serratus L.",
-                "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/A_hand-book_to_the_flora_of_Ceylon_%28Plate_XX%29_%286430638977%29.jpg/640px-A_hand-book_to_the_flora_of_Ceylon_%28Plate_XX%29_%286430638977%29.jpg"
+            "link": "https://maps.app.goo.gl/QesKE4VPccotN9by9?g_st=iw",
+            "coordenadas": {
+                "lat": "-22.396028",
+                "lng": "-47.543417"
             }
-        ]
+        },
+        "exemplares": {
+            "arquivo": "",
+            "nome": "Elaeocarpus serratus L. [exótica]",
+            "tag": "Elaeocarpus serratus L. [exótica]",
+            "info": "Elaeocarpus serratus L. [exótica]",
+            "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/A_hand-book_to_the_flora_of_Ceylon_%28Plate_XX%29_%286430638977%29.jpg/640px-A_hand-book_to_the_flora_of_Ceylon_%28Plate_XX%29_%286430638977%29.jpg"
+        }
     },
     {
-        "família": "EUPHORBIACEAE",
+        "Família": "EUPHORBIACEAE",
         "Hábito": "Ervas, arbustos, árvores ou lianas, às vezes afilas como cactáceas, geralmente com látex",
         "Folhas": "Alternas, pouco frequentemente opostas ou verticiladas, simples ou raramente compostas (Hevea), com estípulas, margem frequentemente inteira, nectários extraflorais geralmente no pecíolo ou na face abaxial",
-        "inflorescencia": "Cimosa ou racemosa, às vezes ciátio (Euphorbia)",
-        "flores": "Não vistosas, unissexuadas, actinomorfas, aclamídeas ou monoclamídeas, raramente diclamídeas, às vezes envolvidas por brácteas vistosas, cálice dialissépalo ou gamossépalo, corola dialipétala ou gamopétala, estamos 1-numerosos, disco nectarífero geralmente presente, ovário súpero",
-        "fruto": "Geralmente cápsula com deiscência tricoca, menos frequentemente baga, drupa ou sâmara, sementes geralmente com arilo ou carúncula",
+        "Inflorescência": "Cimosa ou racemosa, às vezes ciátio (Euphorbia)",
+        "Flores": "Não vistosas, unissexuadas, actinomorfas, aclamídeas ou monoclamídeas, raramente diclamídeas, às vezes envolvidas por brácteas vistosas, cálice dialissépalo ou gamossépalo, corola dialipétala ou gamopétala, estamos 1-numerosos , disco nectarífero geralmente presente, ovário súpero",
+        "Fruto": "Geralmente cápsula com deiscência tricoca, menos frequentemente baga, drupa ou sâmara, sementes geralmente com arilo ou carúncula",
         "Espécie": "Hevea brasiliensis (Willd. ex A.Juss.) Müll.Arg. [nativa]",
+        "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Hevea_brasiliensis_14.JPG/640px-Hevea_brasiliensis_14.JPG",
         "Localização": {
             "label": "22°23'34.0\"S 47°32'43.2\"W",
-            "link": ""
-        },
-        "maps_url": "https://maps.app.goo.gl/fV1Zgx2KiGth2sjy5?g_st=iw",
-        "exemplares": [
-            {
-                "nome": "Hevea brasiliensis (Willd. ex A.Juss.) Müll.Arg.",
-                "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Hevea_brasiliensis_14.JPG/640px-Hevea_brasiliensis_14.JPG"
+            "link": "https://maps.app.goo.gl/6XgtDzQoNgik2c9A7?g_st=iw",
+            "coordenadas": {
+                "lat": "-22.392778",
+                "lng": "-47.545333"
             }
-        ]
+        },
+        "exemplares": {
+            "arquivo": "",
+            "nome": "Hevea brasiliensis (Willd. ex A.Juss.) Müll.Arg. [nativa]",
+            "tag": "Hevea brasiliensis (Willd. ex A.Juss.) Müll.Arg. [nativa]",
+            "info": "Hevea brasiliensis (Willd. ex A.Juss.) Müll.Arg. [nativa]",
+            "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Hevea_brasiliensis_14.JPG/640px-Hevea_brasiliensis_14.JPG"
+        }
+    },
+    {
+        "Família": "FABACEAE",
+        "Hábito": "Ervas, arbustos, árvores ou lianas",
+        "Folhas": "Alternas, muito raramente opostas, frequentemente compostas, com estípulas, às vezes transformadas em espinhos, geralmente com nectários extraflorais, às vezes com pontoações translúcidas",
+        "Inflorescência": "Geralmente racemosa",
+        "Flores": "Vistosas ou não, frequentemente bissexuadas, actinomorfas ou zigomorfas, ocasionalmente assimétricas, diclamídeas ou raramente monoclamídeas, geralmente com hipanto, cálice frequentemente pentâmero, dialissépalo ou gamossépalo, corola geralmente pentâmera, dialipétala ou gamopétala, pétalas semelhantes entre si ou diferenciadas em quilhas, alas e estandarte, estames geralmente em número duplo ao das pétalas, disco nectarífero geralmente presente, ovário súpero",
+        "Fruto": "Geralmente do tipo legume, também drupa, sâmara, folículo, craspédio ou lomento",
+        "Espécie": "Paubrasilia echinata (Lam.) Gagnon, H.C.Lima & G.P.Lewis [nativa]",
+        "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Caesalpinia_echinata_%281%29.jpg/640px-Caesalpinia_echinata_%281%29.jpg",
+        "Localização": {
+            "label": "22°23'30.3\"S 47°32'40.5\"W",
+            "link": "https://maps.app.goo.gl/wQgLyCuYX1QegBPdA?g_st=iw",
+            "coordenadas": {
+                "lat": "-22.391750",
+                "lng": "-47.544583"
+            }
+        },
+        "exemplares": {
+            "arquivo": "",
+            "nome": "Paubrasilia echinata (Lam.) Gagnon, H.C.Lima & G.P.Lewis [nativa]",
+            "tag": "Paubrasilia echinata (Lam.) Gagnon, H.C.Lima & G.P.Lewis [nativa]",
+            "info": "Paubrasilia echinata (Lam.) Gagnon, H.C.Lima & G.P.Lewis [nativa]",
+            "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Caesalpinia_echinata_%281%29.jpg/640px-Caesalpinia_echinata_%281%29.jpg"
+        }
+    },
+    {
+        "Família": "LAMIACEAE",
+        "Hábito": "Ervas ou arbustos, raramente árvores, comumente aromáticos, ramos frequentemente quadrangulares",
+        "Folhas": "Opostas ou raramente verticiladas ou alternas, simples, pouco frequentemente compostas, sem estípulas, geralmente serreadas",
+        "Inflorescência": "Frequentemente cimosa, geralmente congesta",
+        "Flores": "Geralmente vistosas, bissexuadas, zigomorfas, diclamídeas, cálice pentâmero, gamossépalo, corola pentâmera, gamopétala, estames 2 ou 4, epipétalos, ovário súpero",
+        "Fruto": "Baga ou esquizocarpo",
+        "Espécie": "Callicarpa nudiflora Hook. & Arn. [exótica]",
+        "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/The_botany_of_Captain_Beechey%27s_voyage%3B_comprising_an_acount_of_the_plants_collected_by_Messrs._Lay_and_Collie%2C_and_other_officers_of_the_expedition%2C_during_the_voyage_to_the_Pacific_and_Behring%27s_%2820217636120%29.jpg/800px-thumbnail.jpg",
+        "Localização": {
+            "label": "22°23'42.6\"S 47°32'50.2\"W",
+            "link": "https://maps.app.goo.gl/HM5eAU5WK3UCSUPr7?g_st=iw",
+            "coordenadas": {
+                "lat": "-22.395167",
+                "lng": "-47.547278"
+            }
+        },
+        "exemplares": {
+            "arquivo": "",
+            "nome": "Callicarpa nudiflora Hook. & Arn. [exótica]",
+            "tag": "Callicarpa nudiflora Hook. & Arn. [exótica]",
+            "info": "Callicarpa nudiflora Hook. & Arn. [exótica]",
+            "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/The_botany_of_Captain_Beechey%27s_voyage%3B_comprising_an_acount_of_the_plants_collected_by_Messrs._Lay_and_Collie%2C_and_other_officers_of_the_expedition%2C_during_the_voyage_to_the_Pacific_and_Behring%27s_%2820217636120%29.jpg/800px-thumbnail.jpg"
+        }
+    },
+    {
+        "Família": "LAURACEAE",
+        "Hábito": "Arbustos ou árvores, menos frequentemente ervas escandentes afilas e holoparasitas (Cassytha)",
+        "Folhas": "Alternas ou menos frequentemente opostas, simples, sem estípulas, margem inteira,",
+        "Inflorescência": "Frequentemente paniculada, raramente racemosa (Cassytha",
+        "Flores": "Geralmente pouco vistosas, bissexuadas ou menos frequentemente unissexuadas, actinomorfas, diclamídeas e homoclamídeas, cálice frequentemente trímero, dialissépalo, corola geralmente trímera, dialipétala,",
+        "Fruto": "",
+        "Espécie": "Nectandra angustifolia (Schrad.) Nees & Mart.",
+        "link": "https://floradigital.ufsc.br/imagens/8675f3523381f8bc4dd6123ca626c979049.JPG",
+        "Localização": {
+            "label": "22°23'47.2\"S 47°32'50.4\"W",
+            "link": "https://maps.app.goo.gl/KLjn8fWaivGHpxhJ8?g_st=iw",
+            "coordenadas": {
+                "lat": "-22.396444",
+                "lng": "-47.547333"
+            }
+        },
+        "exemplares": {
+            "arquivo": "",
+            "nome": "Nectandra angustifolia (Schrad.) Nees & Mart.",
+            "tag": "Nectandra angustifolia (Schrad.) Nees & Mart.",
+            "info": "Nectandra angustifolia (Schrad.) Nees & Mart.",
+            "link": "https://floradigital.ufsc.br/imagens/8675f3523381f8bc4dd6123ca626c979049.JPG"
+        }
+    },
+    {
+        "Família": "LECYTHIDACEAE",
+        "Hábito": "Árvores, arbustos ou menos frequentemente lianas",
+        "Folhas": "Alternas, simples, estípulas podem estar presentes, margem inteira ou serreada",
+        "Inflorescência": "Axilar, terminal ou às vezes cauliflora, racemosa ou paniculada, podendo ser resumida a uma flor",
+        "Flores": "Geralmente vistosas, bissexuadas, zigomorfas ou actinomorfas, diclamídeas ou menos frequentemente monoclamídeas, cálice dialissépalo ou com sépalas unidas na base, corola dialipétala, estames numerosos, pouco frequente apenas dez, estaminódios podem ocorrer, disco nectarífero ausente ou pouco desenvolvido, ovário ínfero",
+        "Fruto": "Indeiscente e lenhoso, drupa, bacáceo ou pixídio",
+        "Espécie": "Cariniana estrellensis (Raddi) Kuntze [nativa]",
+        "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flickr_-_Jo%C3%A3o_de_Deus_Medeiros_-_Cariniana_estrellensis_%285%29.jpg/640px-Flickr_-_Jo%C3%A3o_de_Deus_Medeiros_-_Cariniana_estrellensis_%285%29.jpg",
+        "Localização": {
+            "label": "22°23'46.2\"S 47°32'40.3\"W",
+            "link": "https://maps.app.goo.gl/6matDrt3GFUiTEW49?g_st=iw",
+            "coordenadas": {
+                "lat": "-22.396167",
+                "lng": "-47.544528"
+            }
+        },
+        "exemplares": {
+            "arquivo": "",
+            "nome": "Cariniana estrellensis (Raddi) Kuntze [nativa]",
+            "tag": "Cariniana estrellensis (Raddi) Kuntze [nativa]",
+            "info": "Cariniana estrellensis (Raddi) Kuntze [nativa]",
+            "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flickr_-_Jo%C3%A3o_de_Deus_Medeiros_-_Cariniana_estrellensis_%285%29.jpg/640px-Flickr_-_Jo%C3%A3o_de_Deus_Medeiros_-_Cariniana_estrellensis_%285%29.jpg"
+        }
+    },
+    {
+        "Família": "LYTHRACEAE",
+        "Hábito": "Ervas, arbustos ou árvores, caule pode ser descamante",
+        "Folhas": "Opostas, raramente alternas ou verticiladas, simples, estípulas ausentes ou vestigiais, margem inteira",
+        "Inflorescência": "Racemosa",
+        "Flores": "Geralmente vistosas, bissexuadas, actinomorfas ou zigomorfas, diclamídeas ou raramente monoclamídeas, cálice dialissépalo, corola dialipétala, estames em número duplo ao das sépalas, pouco frequentemente mais numerosos, disco nectarífero presente, ovário súpero, raramente ínfero",
+        "Fruto": "Cápsula, pouco frequentemente baga (Punica)",
+        "Espécie": "Lafoensia glyptocarpa Koehne [nativa]",
+        "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Lafoensia_pacari_%283%29.jpg/640px-Lafoensia_pacari_%283%29.jpg",
+        "Localização": {
+            "label": "22°23'47.9\"S 47°32'48.8\"W",
+            "link": "https://maps.app.goo.gl/VqU7LyvQUeGS3aqT9?g_st=iw",
+            "coordenadas": {
+                "lat": "-22.396639",
+                "lng": "-47.546889"
+            }
+        },
+        "exemplares": {
+            "arquivo": "",
+            "nome": "Lafoensia glyptocarpa Koehne [nativa]",
+            "tag": "Lafoensia glyptocarpa Koehne [nativa]",
+            "info": "Lafoensia glyptocarpa Koehne [nativa]",
+            "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Lafoensia_pacari_%283%29.jpg/640px-Lafoensia_pacari_%283%29.jpg"
+        }
+    },
+    {
+        "Família": "MAGNOLIACEAE",
+        "Hábito": "Árvores ou arbustos",
+        "Folhas": "Alternas, simples, presença de estípulas terminais, inteiras ou lobadas, margem inteira",
+        "Flores": "Frequentemente terminais e solitárias, vistosas, comumente bissexuadas, monoclamídeas ou diclamídeas, externamente sepaloide, internamente petaloide, estames em grande quantidade, gineceu dialicarpelar, ovário súpero",
+        "Fruto": "Composto ou sincárpico, estrobiliforme ou sâmara",
+        "Espécie": "Magnolia champaca (L.) Baill. ex Pierre [exótica]",
+        "Localização": {
+            "label": "",
+            "link": "",
+            "coordenadas": {
+                "lat": "",
+                "lng": ""
+            }
+        },
+        "exemplares": {
+            "arquivo": "",
+            "nome": "Magnolia champaca (L.) Baill. ex Pierre [exótica]",
+            "tag": "Magnolia champaca (L.) Baill. ex Pierre [exótica]",
+            "info": "Magnolia champaca (L.) Baill. ex Pierre [exótica]",
+            "link": ""
+        }
+    },
+    {
+        "Família": "MALPIGHIACEAE",
+        "Hábito": "Ervas, arbustos, árvores ou lianas",
+        "Folhas": "Opostas, simples, estípulas muitas vezes presentes, margem inteira, nectários extraflorais frequentemente presentes, látex pouco comum",
+        "Inflorescência": "Cimosa ou racemosa",
+        "Flores": "Vistosas, geralmente bissexuadas, actinomorfas ou zigomorfas, cálice pentâmero frequentemente dialissépalo, nectários extraflorais muitas vezes na base das sépalas, corola pentâmera, dialipétala, pétalas frequentemente unguiculadas com margem franjada, uma das pétalas geralmente diferente, comumente 10 estames, sem disco nectarífero, ovário súpero",
+        "Fruto": "Frequentemente esquizocárpico, muitas vezes alado, também baga, noz ou drupa",
+        "Espécie": "",
+        "Localização": {
+            "label": "",
+            "link": "",
+            "coordenadas": {
+                "lat": "",
+                "lng": ""
+            }
+        },
+        "exemplares": {
+            "arquivo": "",
+            "nome": "",
+            "tag": "",
+            "info": "",
+            "link": ""
+        }
+    },
+    {
+        "Família": "MALVACEAE",
+        "Hábito": "Ervas, arbustos, lianas ou árvores",
+        "Folhas": "Alternas, simples ou compostas, com estípulas, margem inteira ou serreada, nervuras secundárias podem atingir a margem serreada da folha",
+        "Inflorescência": "Cimosa ou racemosa, muitas vezes uma única flor",
+        "Flores": "Frequentemente vistosas, bissexuadas ou pouco frequentemente unissexuadas, actinomorfas, comumente diclamídeas, podem apresentar androginóforo, brácteas comumente formam verticilo abaixo do cálice, cálice gamossépalo ou pouco frequentemente dialissépalo, corola geralmente dialipétala, estames em número igual ao das pétalas ou numerosos, ovário súpero",
+        "Fruto": "Baga, cápsula, drupa, esquizocarpo ou sâmara",
+        "Espécie": "",
+        "Localização": {
+            "label": "",
+            "link": "",
+            "coordenadas": {
+                "lat": "",
+                "lng": ""
+            }
+        },
+        "exemplares": {
+            "arquivo": "",
+            "nome": "",
+            "tag": "",
+            "info": "",
+            "link": ""
+        }
+    },
+    {
+        "Família": "MELIACEAE",
+        "Hábito": "Arbustos ou árvores",
+        "Folhas": "Alternas ou raramente opostas, compostas, pouco frequentemente simples, ausência de estípulas, raramente apresentam pontoações translúcidas",
+        "Inflorescência": "Geralmente cimosa",
+        "Flores": "Muitas vezes pouco vistosas, bissexuadas ou unissexuadas, actinomorfas, diclamídeas, cálice geralmente gamossépalo, corola gamopétala ou dialipétala, estames numerosos ou em número igual ou duplo ao das pétalas, disco nectarífero geralmente presente, gineceu gamocarpelar, ovário súpero",
+        "Fruto": "Drupa, baga ou cápsula, sementes geralmente aladas",
+        "Espécie": "",
+        "Localização": {
+            "label": "",
+            "link": "",
+            "coordenadas": {
+                "lat": "",
+                "lng": ""
+            }
+        },
+        "exemplares": {
+            "arquivo": "",
+            "nome": "",
+            "tag": "",
+            "info": "",
+            "link": ""
+        }
+    },
+    {
+        "Família": "MORACEAE",
+        "Hábito": "Ervas, arbustos, árvores ou lianas, frequentemente com látex",
+        "Folhas": "Alternas ou pouco frequentemente opostas, geralmente simples, comumente com estípulas terminais, margem lisa",
+        "Inflorescência": "Espiciforme, racemosa ou sicônio",
+        "Flores": "Não vistosas, unissexuadas, actinomorfas, monoclamídeas ou pouco frequentemente aclamídeas, cálice gamossépalo ou dialissépalo, estames livres, ovário súpero ou ínfero, frequentemente bicarpelar e unilocular",
+        "Fruto": "Drupa, aquênio ou fruto composto",
+        "Espécie": "",
+        "Localização": {
+            "label": "",
+            "link": "",
+            "coordenadas": {
+                "lat": "",
+                "lng": ""
+            }
+        },
+        "exemplares": {
+            "arquivo": "",
+            "nome": "",
+            "tag": "",
+            "info": "",
+            "link": ""
+        }
+    },
+    {
+        "Família": "MYRTACEAE",
+        "Hábito": "árvores ou arbustos, pouco frequentemente subarbustos, geralmente com casca esfoliante",
+        "Folhas": "Opostas ou alternas, pouco frequentemente verticiladas, simples, estípulas vestigiais quando presentes, peninérveas, margem inteira, geralmente coriáceas, presença de pontoações translúcidas",
+        "Inflorescência": "Frequentemente cimosa, pode ser reduzida a uma flor",
+        "Flores": "Vistosas, geralmente brancas, bissexuadas ou pouco frequentemente unissexuadas, actinomorfas, diclamídeas ou raramente monoclamídeas, cálice geralmente dialissépalo, corola dialipétala, estames longos, vistosos, numerosos, pouco frequentemente em número igual ou duplo ao das pétalas, disco nectarífero presente, ovário ínfero",
+        "Fruto": "Baga, cápsula, drupa ou núcula",
+        "Espécie": "",
+        "Localização": {
+            "label": "",
+            "link": "",
+            "coordenadas": {
+                "lat": "",
+                "lng": ""
+            }
+        },
+        "exemplares": {
+            "arquivo": "",
+            "nome": "",
+            "tag": "",
+            "info": "",
+            "link": ""
+        }
+    },
+    {
+        "Família": "OCHNACEAE",
+        "Hábito": "Arbustos, árvores ou menos frequentemente ervas",
+        "Folhas": "Alternas, frequentemente simples, com estípulas, margem geralmente serreada",
+        "Inflorescência": "Cimosa, racemosa, paniculada ou pode ser reduzida a uma flor",
+        "Flores": "Vistosas ou ligeiramente, bissexuadas, actinomorfas ou zigomorfas, diclamídeas, cálice frequentemente dialissépalo, corola dialipétala, estames geralmente numerosos ou em número igual ou duplo ao das pétalas, estaminódios podem estar presentes, sem disco nectarífero, ovário súpero",
+        "Fruto": "Cápsula, drupoide ou noz",
+        "Espécie": "",
+        "Localização": {
+            "label": "22°23'31.9\"S 47°32'38.0\"W",
+            "link": "",
+            "coordenadas": {
+                "lat": "",
+                "lng": ""
+            }
+        },
+        "exemplares": {
+            "arquivo": "",
+            "nome": "",
+            "tag": "",
+            "info": "",
+            "link": ""
+        }
+    },
+    {
+        "Família": "OLEACEAE",
+        "Hábito": "Arbustos, lianas ou árvores",
+        "Folhas": "Opostas ou menos frequentemente alternas, simples ou compostas, ausência de estípulas",
+        "Inflorescência": "Cimosa ou reduzida a uma flor",
+        "Flores": "Frequentemente pouco vistosas, bissexuadas ou raramente unissexuadas, actinomorfas, diclamídeas ou menos frequentemente monoclamídeas (Fraxinus), cálice dialissépalo, corola gamopétala, estames 2 ou menos frequentemente 4, epipétalos, disco nectarífero presente, ovário súpero",
+        "Fruto": "Baga, cápsula, drupa ou sâmara",
+        "Espécie": "",
+        "Localização": {
+            "label": "",
+            "link": "",
+            "coordenadas": {
+                "lat": "",
+                "lng": ""
+            }
+        },
+        "exemplares": {
+            "arquivo": "",
+            "nome": "",
+            "tag": "",
+            "info": "",
+            "link": ""
+        }
+    },
+    {
+        "Família": "OXALIDACEAE",
+        "Hábito": "Ervas, geralmente bulbosas, menos frequentemente arbustos ou árvores",
+        "Folhas": "Alternas, compostas, frequentemente sem estípulas, margem inteira",
+        "Inflorescência": "Frequentemente cimosa",
+        "Flores": "Vistosas, bissexuadas, actinomorfas, diclamídeas, cálice pentâmero, dialissépalo, corola pentâmera, dialipétala ou gamopétala, estames 10, um destes podendo ser estaminodial (Averrhoa), glândulas nectaríferas muitas vezes dispostas na base dos filetes, ovário súpero",
+        "Fruto": "Baga (Averrhoa) ou cápsula",
+        "Espécie": "",
+        "Localização": {
+            "label": "",
+            "link": "",
+            "coordenadas": {
+                "lat": "",
+                "lng": ""
+            }
+        },
+        "exemplares": {
+            "arquivo": "",
+            "nome": "",
+            "tag": "",
+            "info": "",
+            "link": ""
+        }
+    },
+    {
+        "Família": "",
+        "Hábito": "",
+        "Folhas": "",
+        "Inflorescência": "",
+        "Flores": "",
+        "Fruto": "",
+        "Espécie": "",
+        "Localização": {
+            "label": "22°23'45.0\"S 47°32'41.6\"W",
+            "link": "",
+            "coordenadas": {
+                "lat": "",
+                "lng": ""
+            }
+        },
+        "exemplares": {
+            "arquivo": "",
+            "nome": "",
+            "tag": "",
+            "info": "",
+            "link": ""
+        }
+    },
+    {
+        "Família": "PINACEAE",
+        "Hábito": "Árvores ou às vezes arbustos, monoicos",
+        "Folhas": "Simples, lineares, aciculares ou menos frequentemente lanceoladas, alternas, agrupadas em feixes curtos, uninérveas e geralmente pungentes",
+        "Microstróbilos": "Não coriáceos, com abundantes microsporófilos, grãos de pólen frequentemente com vesículas de ar",
+        "Megastróbilos": "Coriáceos, maiores e menos numerosos do que os microstróbilos, com abundantes megasporófilos biovulados",
+        "Sementes": "Geralmente aladas",
+        "Espécie": "",
+        "Localização": {
+            "label": "",
+            "link": "",
+            "coordenadas": {
+                "lat": "",
+                "lng": ""
+            }
+        },
+        "exemplares": {
+            "arquivo": "",
+            "nome": "",
+            "tag": "",
+            "info": "",
+            "link": ""
+        }
+    },
+    {
+        "Família": "POLYGONACEAE",
+        "Hábito": "Arbustos, árvores ou raramente lianas",
+        "Folhas": "Alternas, simples, ausência de estípulas, margem inteira",
+        "Inflorescência": "Cimosa",
+        "Flores": "Frequentemente bissexuadas, actinomorfas ou menos frequentemente zigomorfas, cálice pentâmero, dialissépalo ou gamossépalo, corola pentâmera, gamopétala, estames 5, ovário súpero",
+        "Fruto": "Baga ou cápsula",
+        "Espécie": "",
+        "Localização": {
+            "label": "",
+            "link": "",
+            "coordenadas": {
+                "lat": "",
+                "lng": ""
+            }
+        },
+        "exemplares": {
+            "arquivo": "",
+            "nome": "",
+            "tag": "",
+            "info": "",
+            "link": ""
+        }
+    },
+    {
+        "Família": "PODOCARPACEAE",
+        "Hábito": "Árvores ou arbustos, dioicos ou menos frequentemente monoicos",
+        "Folhas": "Simples, alternas, espiraladas, menos frequentemente opostas, lineares, lanceoladas, aciculares ou escamiformes, margem inteira",
+        "Microstróbilos": "Abundantes microsporófilos, grãos de pólen com vesículas de ar",
+        "Megastróbilos": "Megasporófilos uniovulados, geralmente com receptáculo carnoso ou coriáceo",
+        "Sementes": "Frequentemente unidas ao receptáculo, rodeada por uma capa carnosa ou coriácea, formando estrutura drupoide",
+        "Espécie": "Nageia nagi (Thunb.) Kuntze [exótica]",
+        "Localização": {
+            "label": "",
+            "link": "",
+            "coordenadas": {
+                "lat": "",
+                "lng": ""
+            }
+        },
+        "exemplares": {
+            "arquivo": "",
+            "nome": "Nageia nagi (Thunb.) Kuntze [exótica]",
+            "tag": "Nageia nagi (Thunb.) Kuntze [exótica]",
+            "info": "Nageia nagi (Thunb.) Kuntze [exótica]",
+            "link": ""
+        }
+    },
+    {
+        "Família": "PROTEACEAE",
+        "Hábito": "Árvores ou arbustos",
+        "Folhas": "Alternas, menos frequentemente opostas ou verticiladas, simples ou compostas, comumente pinatissectas, ausência de estípulas",
+        "Inflorescência": "Capítulo, espiga, glomérulo, umbela, racemo",
+        "Flores": "Frequentemente vistosas, monoclamídeas, bissexuadas ou menos frequentemente unissexuadas, zigomorfas ou actinomorfas, hipóginas ou períginas, cálice frequentemente tetrâmero, geralmente gamossépalo, comumente partido em um dos lados deixando uma sépala livre, estames em número igual ao das sépalas, ovário súpero",
+        "Fruto": "Aquênio, drupa, folículo ou noz",
+        "Espécie": "",
+        "Localização": {
+            "label": "",
+            "link": "",
+            "coordenadas": {
+                "lat": "",
+                "lng": ""
+            }
+        },
+        "exemplares": {
+            "arquivo": "",
+            "nome": "",
+            "tag": "",
+            "info": "",
+            "link": ""
+        }
+    },
+    {
+        "Família": "",
+        "Hábito": "Ervas, arbustos ou árvores, pouco frequentemente epífitas ou lianas",
+        "Folhas": "Alternas, menos frequentemente opostas ou verticiladas, muitas vezes rosuladas, ou concentradas no ápice dos ramos, ou formando pseudoverticilos, simples, ausência de estípulas, podem ter margem inteira, serreada, lâmina pode apresentar canais secretores lineares, perceptíveis principalmente na face abaxial",
+        "Inflorescência": "Racemosa, cimosa ou paniculada",
+        "Flores": "Vistosas, às vezes apenas um pouco, unissexuadas ou bissexuadas, actinomorfas, cálice dialissépalo ou gamossépalo, corola gamopétala, estames em número igual ao das pétalas, epipétalos, às vezes com estaminódios, ovário súpero ou pouco frequentemente ínfero",
+        "Fruto": "Baga, drupa, cápsula valvar ou opercular",
+        "Espécie": "",
+        "Localização": {
+            "label": "",
+            "link": "",
+            "coordenadas": {
+                "lat": "",
+                "lng": ""
+            }
+        },
+        "exemplares": {
+            "arquivo": "",
+            "nome": "",
+            "tag": "",
+            "info": "",
+            "link": ""
+        }
+    },
+    {
+        "Família": "",
+        "Hábito": "Ervas, arbustos, lianas ou árvores, podem apresentar gavinhas, às vezes com espinhos",
+        "Folhas": "Alternas ou opostas, simples, podem apresentar estípulas, margem inteira ou serreada, às vezes com nectários extraflorais na face abaxial",
+        "Inflorescência": "Cimosa, podendo ser reduzida a um fascículo ou a uma flor",
+        "Flores": "Frequentemente pouco vistosas, bissexuadas ou raramente unissexuadas, actinomorfas, diclamídeas ou menos frequentemente monoclamídeas, cálice dialissépalo ou raramente gamossépalo, corola dialipétala pétalas muitas vezes unguiculadas e cuculadas ou espatuladas, estames em número igual ao das sépalas, disco nectarífero presente, ovário súpero ou ínfero",
+        "Fruto": "Drupa, cápsula ou esquizocarpo, pouco frequentemente sâmara",
+        "Espécie": "",
+        "Localização": {
+            "label": "",
+            "link": "",
+            "coordenadas": {
+                "lat": "",
+                "lng": ""
+            }
+        },
+        "exemplares": {
+            "arquivo": "",
+            "nome": "",
+            "tag": "",
+            "info": "",
+            "link": ""
+        }
+    },
+    {
+        "Família": "",
+        "Hábito": "Ervas, arbustos, lianas ou árvores, frequentemente com acúleos ou espinhos",
+        "Folhas": "Frequentemente alternas, simples ou compostas, muitas vezes com estípulas, margem geralmente serreada ou inteira",
+        "Inflorescência": "Geralmente cimosa, podendo ser reduzida a uma flor, pode ter brácteas formando calículo",
+        "Flores": "Frequentemente vistosas, bissexuadas ou unissexuadas, actinomorfas, diclamídeas ou menos frequentemente monoclamídeas, cálice dialissépalo, corola dialipétala, estames livres entre si, disco nectarífero frequentemente presente, gineceu dialicarpelar ou gamocarpelar, ovário súpero ou ínfero",
+        "Fruto": "Folículo, aquênio, drupa ou menos frequentemente cápsula",
+        "Espécie": "",
+        "Localização": {
+            "label": "",
+            "link": "",
+            "coordenadas": {
+                "lat": "",
+                "lng": ""
+            }
+        },
+        "exemplares": {
+            "arquivo": "",
+            "nome": "",
+            "tag": "",
+            "info": "",
+            "link": ""
+        }
+    },
+    {
+        "Família": "",
+        "Hábito": "Ervas, subarbustos, arbustos ou árvores, raramente lianas",
+        "Folhas": "Opostas, raramente verticiladas, simples, frequentemente com estípulas interpeciolares que podem ser transformadas em espinhos ou ser semelhantes às folhas, margem inteira",
+        "Inflorescência": "Frequentemente cimosa, pode formar glomérulo ou ser reduzida a uma flor",
+        "Flores": "Vistosas, bissexuadas ou menos frequentemente unissexuadas, actinomorfas, geralmente diclamídeas, cálice frequentemente dialissépalo, uma das sépalas pode ser muito desenvolvida, corola gamopétala, estames em número igual ao das pétalas, epipétalos, podem apresentar discos nectaríferos, ovário ínfero",
+        "Fruto": "Cápsula, esquizocarpo, drupa ou baga",
+        "Espécie": "",
+        "Localização": {
+            "label": "",
+            "link": "",
+            "coordenadas": {
+                "lat": "",
+                "lng": ""
+            }
+        },
+        "exemplares": {
+            "arquivo": "",
+            "nome": "",
+            "tag": "",
+            "info": "",
+            "link": ""
+        }
+    },
+    {
+        "Família": "",
+        "Hábito": "Arbustos ou árvores, menos frequentemente ervas ou lianas, muitas vezes com espinhos",
+        "Folhas": "Alternas ou raramente opostas, compostas ou menos frequentemente simples, ausência de estípulas, margem inteira ou serreada, apresentam pontoações translúcidas",
+        "Inflorescência": "Cimosa, pouco frequentemente racemosa, pode ser reduzida a uma flor",
+        "Flores": "Frequentemente pouco vistosas, bissexuadas ou unissexuadas, frequentemente actinomorfas, diclamídeas, cálice gamossépalo ou dialissépalo corola gamopétala ou dialipétala, estames frequentemente livres entre si, estaminódios às vezes presentes, disco nectarífero presente, gineceu gamocarpelar ou dialicarpelar, ovário súpero",
+        "Fruto": "Drupa, baga, folículo ou cápsula",
+        "Espécie": "",
+        "Localização": {
+            "label": "",
+            "link": "",
+            "coordenadas": {
+                "lat": "",
+                "lng": ""
+            }
+        },
+        "exemplares": {
+            "arquivo": "",
+            "nome": "",
+            "tag": "",
+            "info": "",
+            "link": ""
+        }
+    },
+    {
+        "Família": "",
+        "Hábito": "",
+        "Folhas": "",
+        "Inflorescência": "",
+        "Flores": "",
+        "Fruto": "",
+        "Espécie": "",
+        "Localização": {
+            "label": "",
+            "link": "",
+            "coordenadas": {
+                "lat": "",
+                "lng": ""
+            }
+        },
+        "exemplares": {
+            "arquivo": "",
+            "nome": "",
+            "tag": "",
+            "info": "",
+            "link": ""
+        }
+    },
+    {
+        "Família": "",
+        "Hábito": "Arbustos, árvores ou lianas (com gavinhas originadas da inflorescência), às vezes ervas, raramente latescentes",
+        "Folhas": "Alternas ou menos frequentemente opostas, compostas ou raramente simples, geralmente sem estípulas, margem inteira ou serreada",
+        "Inflorescência": "Frequentemente cimosa",
+        "Flores": "Frequentemente pouco vistosas, bissexuadas ou menos frequentemente unissexuadas, actinomorfas ou zigomorfas, diclamídeas ou raramente monoclamídeas, cálice dialissépalo ou gamossépalo, corola dialipétala, estames em número duplo ao das pétalas, menos frequentemente em número igual ou inferior, frequentemente livres entre si, disco nectarífero comumente presente, gineceu gamocarpelar ovário súpero",
+        "Fruto": "Samarídeo, cápsula ou baga",
+        "Espécie": "",
+        "Localização": {
+            "label": "",
+            "link": "",
+            "coordenadas": {
+                "lat": "",
+                "lng": ""
+            }
+        },
+        "exemplares": {
+            "arquivo": "",
+            "nome": "",
+            "tag": "",
+            "info": "",
+            "link": ""
+        }
+    },
+    {
+        "Família": "",
+        "Hábito": "Ervas, arbustos, árvores ou lianas, pouco frequentemente com látex, podem apresentar tricomas urticantes nas folhas e nos ramos",
+        "Folhas": "Alternas ou raramente opostas, simples, às vezes palmatífidas, com estípulas terminais ou laterais, margem inteira ou serreada",
+        "Inflorescência": "Cimosa, geralmente com aspecto de espiga e com flores congestas",
+        "Flores": "Não vistosas, unissexuadas, actinomorfas, monoclamídeas ou menos frequentemente aclamídeas, cálice gamossépalo ou dialissépalo, estames livres entre si, ovário súpero",
+        "Fruto": "Frequentemente aquênio",
+        "Espécie": "",
+        "Localização": {
+            "label": "",
+            "link": "",
+            "coordenadas": {
+                "lat": "",
+                "lng": ""
+            }
+        },
+        "exemplares": {
+            "arquivo": "",
+            "nome": "",
+            "tag": "",
+            "info": "",
+            "link": ""
+        }
+    },
+    {
+        "Família": "",
+        "Hábito": "Ervas, arbustos, raramente árvores ou lianas, frequentemente aromáticos, comumente com ramos quadrangulares",
+        "Folhas": "Opostas, menos frequentemente verticiladas, simples, sem estípulas, margem frequentemente serreada",
+        "Inflorescência": "Racemosa",
+        "Flores": "Pouco vistosas, bissexuadas, zigomorfas, diclamídeas, cálice frequentemente pentâmero, gamossépalo, corola frequentemente pentâmera, gamopétala, bilabiada, estames 4, didínamos, raramente 2 estaminódios, ovário súpero",
+        "Fruto": "Drupa ou esquizocarpo",
+        "Espécie": "",
+        "Localização": {
+            "label": "",
+            "link": "",
+            "coordenadas": {
+                "lat": "",
+                "lng": ""
+            }
+        },
+        "exemplares": {
+            "arquivo": "",
+            "nome": "",
+            "tag": "",
+            "info": "",
+            "link": ""
+        }
     }
 ]
