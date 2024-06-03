@@ -106,6 +106,7 @@
 					<div class="mb-3 font-medium">{{ exemplares.nome }}</div>
 					<div class="mb-3">
 						<div class="relative mx-auto">
+							<picture>
 							<img
 								:key="exemplares.arquivo"
 								:src="
@@ -113,9 +114,22 @@
 										? exemplares.link
 										: '/images/' + exemplares.arquivo
 								"
+								
 								:alt="exemplares.nome"
 								class="w-full border-round border rounded"
 							/>
+							<img
+								:key="exemplares.arquivo"
+								:src="
+									exemplares.link
+										? exemplares.link
+										: '/images/' + exemplares.arquivo
+								"
+								
+								:alt="exemplares.nome"
+								class="w-full border-round border rounded"
+							/>
+						</picture>
 							<!-- <Tag
                     :value="slotProps.data.tag"
                     class="absolute bg-white"

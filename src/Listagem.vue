@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import Carrossel from "./components/detalhes.vue";
+import Detalhes from "./components/detalhes.vue";
 import { Família } from "./tipos";
 import { computed, onErrorCaptured, ref, watch } from "vue";
 import Button from "primevue/button";
@@ -307,7 +307,7 @@ const search = ref("");
 					{{ famíliaSelecionada?.Família }}
 				</strong>
 			</h1>
-			<Carrossel
+			<Detalhes
 				:key="famíliaSelecionada.Família"
 				v-if="famíliaSelecionada"
 				:nome="famíliaSelecionada.Família"
